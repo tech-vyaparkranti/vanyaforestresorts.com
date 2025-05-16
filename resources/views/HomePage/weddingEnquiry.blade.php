@@ -28,7 +28,7 @@
                                 </li>
                                 <li>
                                     <h4>E-mail Us</h4>
-                                    <p><a href="mailto:{!! $contact_us_email ??"sales1@trinantararesorts.com" !!}">{!! $contact_us_email ?? "sales1@trinantararesorts.com" !!}</a></p>
+                                    <p><a href="mailto:{!! $contact_us_email ??"sales1@vanyaforestresorts.com" !!}">{!! $contact_us_email ?? "sales1@trinantararesorts.com" !!}</a></p>
                                 </li>
                                 <li>
                                     <h4>Call Us</h4>
@@ -53,7 +53,7 @@
                             @csrf
                             <input type="hidden" name="country_code" value="" id="country_code_id">
                             <div class="row">
-                                
+
                                 {{-- <div class="col-md-6 mb-3">
                                     <div class="form-group">
                                         <label for="last_name">Last name</label>
@@ -70,7 +70,7 @@
                                         <div class="invalid-feedback">Please provide a valid Email.</div>
                                     </div>
                                 </div> --}}
-                                
+
                                 <div class="col-md-6 mb-3">
     <div class="form-group">
         <label for="check_in_date">Check-in Date</label>
@@ -142,7 +142,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                
+
 
                                 {{-- <div class="col-md-12 mb-3">
                                     <div class="form-group">
@@ -248,7 +248,7 @@
             });
         });
 
-        
+
         var phone_number = window.intlTelInput(document.querySelector("#phone_number"), {
             separateDialCode: true,
             preferredCountries: ["in"],

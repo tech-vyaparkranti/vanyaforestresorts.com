@@ -1,5 +1,5 @@
 @extends('layouts.webSite')
-@section('title', 'About Trinantara Resort & Spa')
+@section('title', 'VanyaForestResort')
 @section('meta_description', 'Discover Trinantara Resort & Spa, the best luxury retreat in Jim Corbett. Our resort
     offers serene accommodation, spa services and premium hospitality')
 @section('meta_keywords', 'Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort
@@ -41,24 +41,23 @@
         </form>
     </div>
                 <div class="site-title mt-200">
-                    <h1 class="text-center">About trinantara resort & spa</h2>
+                    <h1 class="text-center">VanyaForestResort</h2>
                 </div>
-                
+
                 <div class="midd-content">
                     <p class="text-justify">{!! $about_us_content ??
-                        ' <p class="text-justify"><b>Hotel Raj Hans International </b>offer a unique and expert experience to the modern hoteller. Expect an impeccable level of service from your first point of contact to your last moments of Tour.</p>
+                        ' <p class="text-justify"><b>VanyaForestResort </b>offer a unique and expert experience to the modern hoteller. Expect an impeccable level of service from your first point of contact to your last moments of Tour.</p>
                                         <p class="text-justify">Serving since 2018 with our professional and cultural roots in India and armed with specialist knowledge of the Sub-Continent, we offer a unique and expert experience to the modern hoteller.</p>
-                                        <p class="text-justify"><b>"Hotel Raj Hans International"</b> is India’s premier Destination Management Company and a reputed hotel designer offer a wide array of hotel experiences to the local hotel agent & foreign tour operator.</p>
-                                        <p class="text-justify">At <b>Hotel Raj Hans International</b>, we make customer service and hoteller satisfaction priority. We are dedicated to ensuring that every step of the journey, down to the last detail, is taken care of with in-depth product knowledge and range of services offered, highly trained and motivated teams, an exclusive panel of knowledgeable guides.</p>
-                                        <p class="text-justify">Having its presence in three major cities New Delhi, Agra and Varanasi and International office in Kathmandu and with Vast experience & knowledge in the hotel industry have made us a reliable choice for hotel partners. Today, we are considered as the most trusted hotel designer and we set up ourselves as a brand that delivers Luxury.</p>
-                                        <p class="text-justify">"Hotel Raj Hans International" only believes in providing a comfortable journey along with a pleasurable stay and memorable trip to the holidaymakers. Right from the day the journey of our esteemed guest begins till the moment it ends, we make sure to offer only quality service and complete assistance to them. We are indulged in offering all types of hotel related services to individuals, groups, students, honeymoon couples, corporate executives, senior citizens, and others.</p>
+                                        <p class="text-justify"><b>"VanyaForestResort"</b> is India’s premier Destination Management Company and a reputed hotel designer offer a wide array of hotel experiences to the local hotel agent & foreign tour operator.</p>
+                                        <p class="text-justify">At <b>VanyaForestResort</b>, we make customer service and hoteller satisfaction priority. We are dedicated to ensuring that every step of the journey, down to the last detail, is taken care of with in-depth product knowledge and range of services offered, highly trained and motivated teams, an exclusive panel of knowledgeable guides.</p>
+
                                         <p class="text-justify">Keeping these unique needs and expectations in mind, we offer niche specialist platforms for culture, history,religious , meetings & incentives, wildlife & adventure, and luxury.</p>' !!}</p>
                     <h3>Our Mission Statement</h3>
                     <p class="text-justify">{!! $mission ??
                         'Provide a unique hotel experience for our hotel partners in a sustainable, honest and transparent way. Our aim is to become trusted DMC providing a caring, personalized, 24x7, 365 days of the year, rapid response to emergency hotel related services.' !!}</p>
                     <h3>Our Vision Statement</h3>
                     <p class="text-justify">{!! $vision ??
-                        '<b>Hotel Raj Hans International</b> vision that in coming days we wants to be a leading example of a tour operator demonstrating sustainable tourism. We wants to grow by offering more and a wider range of unique experience tours.' !!}</p>
+                        '<b>VanyaForestResort</b> vision that in coming days we wants to be a leading example of a tour operator demonstrating sustainable tourism. We wants to grow by offering more and a wider range of unique experience tours.' !!}</p>
                     <h3>Our Values</h3>
                     <p class="text-justify">{!! $value ??
                         'We start our journey from the slogan of <b>“Atithi Devo Bhavah”</b> with Honesty, Transparency, Quality, Personal, Professional & Sustainable community' !!}</p>
@@ -107,9 +106,9 @@
                                         <div class="destinations-block">
                                             <img src="{{ asset($item->image) }}" class="img-fluid" width=""
                                                 height="" alt="Destinations" />
-    
+
                                         </div>
-                                    </div> 
+                                    </div>
                                     @endforeach
                                 @else
                                 <div class="swiper-slide mb-4">
@@ -215,7 +214,7 @@
     max-width: 1270px;
     /* z-index: 10; */
 }
-    
+
     /* Flex layout for the form */
     .banner-form {
         display: flex;
@@ -231,12 +230,12 @@
     min-width: 220px;
     margin-bottom: 0;
 }
-    
+
     /* Full-width button */
     .banner-form .form-group.button-group {
         flex: 0 0 100%; /* Button takes full row */
     }
-    
+
     /* Styling for input fields */
     .banner-form .form-control {
         width: 100%; /* Ensure full width */
@@ -306,11 +305,11 @@
 .form-group textarea.form-control, .form-group select.form-control, .form-group input.form-control {
     padding: 6px 6px !important;
 }
-        
+
         .banner-form .form-group {
             flex: 1 1 100%; /* Stack inputs on small screens */
         }
-        
+
         .banner-form .form-group.button-group {
             flex: 1 1 100%; /* Ensure button spans full width */
         }

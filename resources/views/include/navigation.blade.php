@@ -24,7 +24,7 @@
             </ul>
         </div> --}}
         <div class="main-text-navigation">
-            <p><a href="tel:+91{{ isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"7088017026" }}" class="blink_me">{{ $contact_us_contact_number??"7088017026" }}</a></p>
+            <p><a href="tel:+91{{ isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"9068445788" }}" class="blink_me">{{ $contact_us_contact_number??"9068445788" }}</a></p>
         </div>
         <div class="mobile-bars"><span></span></div>
 

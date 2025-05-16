@@ -14,7 +14,7 @@
         <div class="custom-container">
             <div class="site-title text-center trinantararesort-heading
     ">
-                <h1><label>About</label> Trinantara Resort</h1>
+                <h1><label>About</label> VanyaForestResort</h1>
                 {{--
       <p class="text-center">
         Rajhans International, Bhagalpur’s first luxury hotel, is this city's
@@ -28,10 +28,10 @@
                         <p>
                             {!! $about_us_home_page_content ??
                                 'See why so many travelers make
-                                                                                                                                                        Trinantararesort International their hotel of choice when visiting
-                                                                                                                                                        Bhagalpur. Providing an ideal mix of value, comfort and convenience,
+                                                                                                                                                        VanyaForestResort    their hotel of choice when visiting
+                                                                                                                                                        Jim Corbett. Providing an ideal mix of value, comfort and convenience,
                                                                                                                                                         it offers a family-friendly setting with an array of amenities
-                                                                                                                                                        designed for travelers like you. Rooms at Trinantararesort
+                                                                                                                                                        designed for travelers like you. Rooms at VanyaForestResort
                                                                                                                                                         International offer a flat screen TV and air conditioning providing
                                                                                                                                                         exceptional comfort and convenience. A 24 hour front desk, room
                                                                                                                                                         service, and 24 hour check-in are some of the conveniences offered
@@ -49,15 +49,15 @@
     <section id="donate-section" class=" zig-zag-bottom nin pt-4">
         <div class="custom-container">
             <div class="site-title text-center pb-2">
-                <h2><label>Trinantara </label> Restaurant<span></span></h2>
+                <h2><label>VanyaForestResort</label> Restaurant<span></span></h2>
 
             </div>
             <div class="row pt-3 align-items-center">
                 <div class="col-lg-6 col-md-6  midd-content text-center">
                     <p>{!! $home_restaurant_content ??
-                        'Trinantara Restaurant, a renowned culinary destination where every meal is a feast! Our extensive
+                        'VanyaForestResort, a renowned culinary destination where every meal is a feast! Our extensive
                                                                                                         buffet offers a diverse selection of mouth-watering dishes, catering to every palate. Join us at
-                                                                                                        Trinantara Restaurant for a buffet
+                                                                                                         VanyaForestResort for a buffet
                                                                                                         experience that will tantalize your taste buds and leave you wanting more.' !!}</p>
                     <!-- button -->
                     <a class="btn  mb-5 aos-init aos-animate" href="{{ route('contactUs') }}" data-aos="fade-up">Contact
@@ -141,7 +141,7 @@
                             {!! $home_cottage_room_services ??
                                 'Experience luxury and comfort in our Cottage Rooms, where every detail is designed to exceed your expectations. With 32 spacious rooms boasting king-size beds, AC, TV, mini refrigerator, and an almirah with a safety locker, your
                                                                                                                                                                         comfort is our priority. Relax on the large sofa or at the table, or unwind in the immaculate bathroom. Enjoy stunning views of Green Garden with Balcony, making your stay a truly unforgettable experience in Jim Corbett Trinantara.
-                                                                                                                                            
+
                                                                                                                                                                         ' !!}
                         </p>
 
@@ -168,7 +168,7 @@
                                 'Indulge in family fun with our Family Plunge Pool Room, designed for unforgettable moments together. You can stay 4 Adults and 2 kid in this room. Relax in the comfort of two king-size beds and unwind on the cozy sofa while enjoying
                                                                                                                                                                         entertainment on the TV. With two washrooms, there is ample space for everyone to freshen up. Step outside to your private plunge pool, or soak in the beauty of nature from the balcony overlooking the garden. Create lasting
                                                                                                                                                                         memories in this spacious and inviting retreat.
-                                                                                                                                            
+
                                                                                                                                                                         ' !!}
                         </p>
 
@@ -202,7 +202,7 @@
                                 </div>
                             </div>
                         </div>
-                    @endforeach 
+                    @endforeach
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -210,7 +210,7 @@
                 <a href="{{ route('amenities') }}">View More</a>
             </div>
 
-           
+
         </div>
     </div>
     {{-- other verticals ends --}}
@@ -286,7 +286,7 @@
                                             alt="Banquet Hall" />
                                     </div>
                                     <div class="border-bottom">
-                                        <h5 class="text-center  py-2">Empower Your Team: Corporate Retreat at Trinantara
+                                        <h5 class="text-center  py-2">Empower Your Team: Corporate Retreat at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class="p-2">
@@ -311,7 +311,7 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Celebrate Eternal Love: Wedding Bliss at Trinantara
+                                        <h5 class="text-center  py-2">Celebrate Eternal Love: Wedding Bliss at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -340,7 +340,7 @@
                                     </div>
                                     <div class="d-flex border-bottom">
                                         <h5 class="text-center  py-2">
-                                            Escape to Serenity: Relaxation Package at Trinantara
+                                            Escape to Serenity: Relaxation Package at  VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -366,7 +366,7 @@
                                         <img class="img-fluid" src="./assets/img/family.jpg" alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Create Memories: Family Fun at Trinantara</h5>
+                                        <h5 class="text-center  py-2">Create Memories: Family Fun at VanyaForestResort</h5>
                                     </div>
                                     <div class=" p-2">
                                         <ul>
@@ -389,7 +389,7 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Rekindle Love: Romantic Escape at Trinantara</h5>
+                                        <h5 class="text-center  py-2">Rekindle Love: Romantic Escape at VanyaForestResort</h5>
                                     </div>
                                     <div class=" p-2">
                                         <ul>
@@ -412,7 +412,7 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Blissful Beginnings: Honeymoon Package at Trinantara
+                                        <h5 class="text-center  py-2">Blissful Beginnings: Honeymoon Package at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -467,20 +467,20 @@
 
                                                 $separator = (strpos($src, '?') === false) ? '?' : '&';
                                                 $videoId = getYouTubeVideoId($originalUrl);
-                
+
                                                 // $src .= $separator . 'autoplay=1&mute=1&controls=1&loop=1&playlist=' . $videoId;
                                                 $src .= $separator . 'mute=1&controls=1&loop=1&playlist=' . $videoId;
                                             }
                                         @endphp
-                    
+
                                         <div class="swiper-slide">
                                             <div class="testimonials-block text-center">
                                                 <div class="right-testimonial">
-                                                    <iframe 
-                                                        width="540" 
+                                                    <iframe
+                                                        width="540"
                                                         height="315"
                                                         src="{{ $src }}"
-                                                        frameborder="0" 
+                                                        frameborder="0"
                                                         class="desktop-video"
                                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                                         allowfullscreen
@@ -491,14 +491,14 @@
                                     @endforeach
                                 @endforeach
                             @else
-                                
+
                                 <div class="swiper-slide">
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
-                                            <iframe 
-                                                width="540" 
-                                                height="315" 
-                                                src="https://www.youtube.com/embed/qQI-3tNFQ7U?si=zaxYY1lok07Z0z27" 
+                                            <iframe
+                                                width="540"
+                                                height="315"
+                                                src="https://www.youtube.com/embed/qQI-3tNFQ7U?si=zaxYY1lok07Z0z27"
                                             ></iframe>
                                         </div>
                                     </div>
@@ -506,10 +506,10 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
-                                            <iframe 
-                                                width="540" 
-                                                height="315" 
-                                                src="https://www.youtube.com/embed/AP0Sg8WdR6Y?si=_K719f-hn4z9D17p" 
+                                            <iframe
+                                                width="540"
+                                                height="315"
+                                                src="https://www.youtube.com/embed/AP0Sg8WdR6Y?si=_K719f-hn4z9D17p"
                                             ></iframe>
                                         </div>
                                     </div>
@@ -517,22 +517,22 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
-                                            <iframe 
-                                                width="540" 
-                                                height="315" 
-                                                src="https://www.youtube.com/embed/f8e9ALsBo8g?si=hAyYS49frnOxNf0q" 
+                                            <iframe
+                                                width="540"
+                                                height="315"
+                                                src="https://www.youtube.com/embed/f8e9ALsBo8g?si=hAyYS49frnOxNf0q"
                                             ></iframe>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             @endif
                         </div>
                         <div class="swiper-button-prev slide-nav"></div>
                         <div class="swiper-button-next slide-nav"></div>
                         {{-- <div class="swiper-pagination custom-pagination swiper-pagination-bullets-dynamic"></div> --}}
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -639,7 +639,7 @@
         <div class="custom-container">
             <div class="site-title pb-4 text-center">
                 <h2 class="text-center">
-                    Trinantararesort - FAQ<small>s</small> <span></span>
+                    VanyaForestResort - FAQ<small>s</small> <span></span>
                 </h2>
             </div>
             <div id="faqs">
@@ -659,7 +659,7 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                Which popular attractions are close to Trinantararesort International?
+                                Which popular attractions are close to VanyaForestResort ?
                             </h2>
                             <span class="accordion__toggle"></span>
                         </div>
@@ -670,7 +670,7 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                What are some of the property amenities at Trinantararesort
+                                What are some of the property amenities at VanyaForestResort
                                 International?
                             </h2>
                             <span class="accordion__toggle"></span>
@@ -685,7 +685,7 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                What food & drink options are available at Trinantararesort
+                                What food & drink options are available at VanyaForestResort
                                 International?
                             </h2>
                             <span class="accordion__toggle"></span>
@@ -699,7 +699,7 @@
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Is parking available at Trinantararesort International?</h2>
+                            <h2>Is parking available at VanyaForestResort ?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -709,32 +709,32 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                What are some restaurants close to Trinantararesort International?
+                                What are some restaurants close to VanyaForestResort ?
                             </h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
                             <p>
                                 Conveniently located restaurants include Royal darbar, Metro Mirchi
-                                Restaurant, and Trinantararesort International.
+                                Restaurant, and VanyaForestResort .
                             </p>
                         </div>
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Does Trinantararesort International have airport transportation?</h2>
+                            <h2>Does VanyaForestResort   have airport transportation?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
                             <p>
-                                Yes, Trinantararesort International offers airport transportation for
+                                Yes, VanyaForestResort  International offers airport transportation for
                                 guests. We recommend calling ahead to confirm details.
                             </p>
                         </div>
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Is Trinantararesort International located near the city center?</h2>
+                            <h2>Is VanyaForestResort  International located near the city center?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -744,7 +744,7 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                Are any cleaning services offered at Trinantararesort International?
+                                Are any cleaning services offered at VanyaForestResort  International?
                             </h2>
                             <span class="accordion__toggle"></span>
                         </div>
@@ -754,7 +754,7 @@
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Are pets allowed at Trinantararesort International?</h2>
+                            <h2>Are pets allowed at VanyaForestResort  International?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -766,7 +766,7 @@
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Does Trinantararesort International offer any business services?</h2>
+                            <h2>Does VanyaForestResort  International offer any business services?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -779,7 +779,7 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                Which languages are spoken by the staff at Trinantararesort
+                                Which languages are spoken by the staff at VanyaForestResort
                                 International?
                             </h2>
                             <span class="accordion__toggle"></span>
@@ -811,7 +811,7 @@
                                 <div class="blog-card mb-3">
                                     {{-- <a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}"> --}}
                                         <div class="blog-card-container">
-                                            <a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}"> 
+                                            <a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}">
                                             <img src="{{ asset($blog->image) }}" alt="blog image">
                                             </a>
                                             <div class="card-content">
@@ -840,12 +840,12 @@
                                     <div class="blog-card-container">
                                         <img src="./assets/img/cottageroom1.jpg" alt="blog image">
                                         <div class="card-content">
-                                            <h4 class="blog_heading">Trinantara Resort: Your Gateway to Adventure and
+                                            <h4 class="blog_heading">VanyaForestResort: Your Gateway to Adventure and
                                                 Relaxation in Jim
                                                 Corbett</h4>
                                             <p class="blog-content">Being perfectly combined with thrills of adventure and
                                                 peace at large,
-                                                Trinantara Resort, offering thrilling safari visits, offers the guest
+                                                VanyaForestResort, offering thrilling safari visits, offers the guest
                                                 relaxing
                                                 atmospheres.
                                                 Be it taking up wildlife of Corbett or just unwinding amidst luxury lodging,
@@ -876,7 +876,7 @@
                                             <h4 class="blog_heading">Family-Friendly Stays at Trinantara Resort a Perfect
                                                 holiday in Jim
                                                 Corbett</h4>
-                                            <p class="blog-content">Trinantara Resort suits family recesses offering
+                                            <p class="blog-content">VanyaForestResort suits family recesses offering
                                                 commodious
                                                 lodgment
                                                 and instigative conditioning for all periods. Its nature walks and jeep
@@ -908,10 +908,10 @@
                                     <div class="blog-card-container">
                                         <img src="./assets/img/gallery2.jpg" alt="blog image">
                                         <div class="card-content">
-                                            <h4 class="blog_heading">Family-Friendly Stays at Trinantara Resort a Perfect
+                                            <h4 class="blog_heading">Family-Friendly Stays at VanyaForestResort a Perfect
                                                 holiday in Jim
                                                 Corbett</h4>
-                                            <p class="blog-content">Trinantara Resort suits family recesses offering
+                                            <p class="blog-content">VanyaForestResort suits family recesses offering
                                                 commodious
                                                 lodgment
                                                 and instigative conditioning for all periods. Its nature walks and jeep
@@ -938,17 +938,17 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="swiper-slide">
                                 <div class="blog-card mb-3">
                                     <div class="blog-card-container">
                                         <img src="./assets/img/anniversaries.jpeg" alt="blog image">
                                         <div class="card-content">
-                                            <h4 class="blog_heading">Romantic lams at Trinantara Resort an Idyllic Escape
+                                            <h4 class="blog_heading">Romantic lams at VanyaForestResort an Idyllic Escape
                                                 in
                                                 Jim Corbett
                                             </h4>
-                                            <p class="blog-content">For couples looking to love, Trinantara Resort is the
+                                            <p class="blog-content">For couples looking to love, VanyaForestResort is the
                                                 perfect isolated
                                                 flight. Enjoy luxurious lodgement, private feasts under the stars, and
                                                 peaceful
@@ -978,11 +978,11 @@
                                     <div class="blog-card-container">
                                         <img src="./assets/img/gallery6.jpg" alt="blog image">
                                         <div class="card-content">
-                                            <h4 class="blog_heading">Trinantara Resort’s Eco-Friendly Villas Sustainable
+                                            <h4 class="blog_heading">VanyaForestResort Eco-Friendly Villas Sustainable
                                                 Luxury
                                                 in Jim
                                                 Corbett</h4>
-                                            <p class="blog-content">Trinantara Resort’s Eco-friendly estates offer a
+                                            <p class="blog-content">VanyaForestResort Eco-friendly estates offer a
                                                 luxurious
                                                 yet
                                                 sustainable stay. erected with environmentally conscious accoutrements,
@@ -1009,15 +1009,15 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         @endif
                     </div>
                 </div>
-               
-         
+
+
         </div>
     </div>
-   
+
     <style>
         .flex-fill .text-primary {
             color: #041443 !important;

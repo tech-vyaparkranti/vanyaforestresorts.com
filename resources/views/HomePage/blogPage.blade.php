@@ -73,10 +73,10 @@
                             <div class="blog-card-container">
                                 <img src="./assets/img/cottageroom1.jpg" alt="blog image">
                                 <div class="card-content">
-                                    <h4 class="blog_heading">Trinantara Resort: Your Gateway to Adventure and Relaxation in
+                                    <h4 class="blog_heading">VanyaForestResort: Your Gateway to Adventure and Relaxation in
                                         Jim Corbett</h4>
                                     <p class="blog-content">Being perfectly combined with thrills of adventure and peace at
-                                        large, Trinantara Resort, offering thrilling safari visits, offers the guest
+                                        large,VanyaForestResort, offering thrilling safari visits, offers the guest
                                         relaxing atmospheres. Be it taking up wildlife of Corbett or just unwinding amidst
                                         luxury lodging, resort leaves a good memory and even guides through tenures to
                                         conditioning for nature-lover and adventure-lovers, in turn.</p>

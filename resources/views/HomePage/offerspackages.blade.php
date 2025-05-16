@@ -76,7 +76,7 @@
                                         <img class="img-fluid" src="./assets/img/corporateevent5.jpg" alt="Banquet Hall" />
                                     </div>
                                     <div class="border-bottom">
-                                        <h5 class="text-center  py-2">Empower Your Team: Corporate Retreat at Trinantara
+                                        <h5 class="text-center  py-2">Empower Your Team: Corporate Retreat at  VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class="p-2">
@@ -100,7 +100,7 @@
                                         <img class="img-fluid" src="./assets/img/destination.jpeg" alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Celebrate Eternal Love: Wedding Bliss at Trinantara
+                                        <h5 class="text-center  py-2">Celebrate Eternal Love: Wedding Bliss at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -128,7 +128,7 @@
                                     </div>
                                     <div class="d-flex border-bottom">
                                         <h5 class="text-center  py-2">
-                                            Escape to Serenity: Relaxation Package at Trinantara
+                                            Escape to Serenity: Relaxation Package at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -154,7 +154,7 @@
                                         <img class="img-fluid" src="./assets/img/family.jpg" alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Create Memories: Family Fun at Trinantara</h5>
+                                        <h5 class="text-center  py-2">Create Memories: Family Fun at VanyaForestResort</h5>
                                     </div>
                                     <div class=" p-2">
                                         <ul>
@@ -177,7 +177,7 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Rekindle Love: Romantic Escape at Trinantara</h5>
+                                        <h5 class="text-center  py-2">Rekindle Love: Romantic Escape at VanyaForestResort</h5>
                                     </div>
                                     <div class=" p-2">
                                         <ul>
@@ -200,7 +200,7 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Blissful Beginnings: Honeymoon Package at Trinantara
+                                        <h5 class="text-center  py-2">Blissful Beginnings: Honeymoon Package at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -237,7 +237,7 @@
     max-width: 1270px;
     /* z-index: 10; */
 }
-    
+
     /* Flex layout for the form */
     .banner-form {
         display: flex;
@@ -253,12 +253,12 @@
     min-width: 220px;
     margin-bottom: 0;
 }
-    
+
     /* Full-width button */
     .banner-form .form-group.button-group {
         flex: 0 0 100%; /* Button takes full row */
     }
-    
+
     /* Styling for input fields */
     .banner-form .form-control {
         width: 100%; /* Ensure full width */
@@ -328,11 +328,11 @@
 .form-group textarea.form-control, .form-group select.form-control, .form-group input.form-control {
     padding: 6px 6px !important;
 }
-        
+
         .banner-form .form-group {
             flex: 1 1 100%; /* Stack inputs on small screens */
         }
-        
+
         .banner-form .form-group.button-group {
             flex: 1 1 100%; /* Ensure button spans full width */
         }

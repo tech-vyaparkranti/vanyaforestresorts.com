@@ -6,9 +6,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
 {{-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> --}}
 
-<a class="footer-whatsapp" aria-label="Whatsapp Button" href="https://wa.me/+91{!! strip_tags($whatsapp_footer_link) ?? '7088017026' !!}?text=Hello%2C%20I%E2%80%99m%20interested%20in%20booking%20a%20room%20at%20your%20resort.%20Could%20you%20please%20call%20me%20back%20to%20discuss%20availability%20and%20pricing%3F">
+{{-- <a class="footer-whatsapp" aria-label="Whatsapp Button" href="https://wa.me/+91{!! strip_tags($whatsapp_footer_link) ?? '7088017026' !!}?text=Hello%2C%20I%E2%80%99m%20interested%20in%20booking%20a%20room%20at%20your%20resort.%20Could%20you%20please%20call%20me%20back%20to%20discuss%20availability%20and%20pricing%3F">
     <img src="{{ asset('assets/img/whatsapp.png') }}" alt="Whatsapp" class="img-fluid" height="" width="150">
-</a>
+</a> --}}
 
 
 
