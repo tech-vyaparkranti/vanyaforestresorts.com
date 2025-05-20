@@ -117,37 +117,7 @@
                         <a class="book-btn" href="https://asiatech.in/booking_engine/index3?token=Njk2NA==">Book Now</a>
                     </div>
                 </div>
-                {{-- <div class="accomodation-cards">
-                    <div class="accomodation-image">
-                        <img src="{{ asset($home_cottage_room_image ?? './assets/img/cottageroom1.jpg') }}" alt=""
-                            class="img-fluid" />
-                    </div>
-                    <div class="accomodation-content">
-                        <h3>{!! $home_cottage_room_heading ?? 'Cottage Room' !!}</h3> --}}
-
-                        {{-- <ul>
-            <li>
-              <i class="fa-solid fa-user-large"></i
-              ><i class="fa-solid fa-indian-rupee-sign"></i>{!!
-              $home_cottage_room_single_rate ?? '2999' !!}
-            </li>
-            <li>
-              <i class="fa-solid fa-user-group"></i
-              ><i class="fa-solid fa-indian-rupee-sign"></i>{!!
-              $home_cottage_room_double_rate ?? '3499' !!}
-            </li>
-          </ul> --}}
-                        {{-- <p class="pt-3 pb-2 text-justify" id="para2">
-                            {!! $home_cottage_room_services ??
-                                'Experience luxury and comfort in our Cottage Rooms, where every detail is designed to exceed your expectations. With 32 spacious rooms boasting king-size beds, AC, TV, mini refrigerator, and an almirah with a safety locker, your
-                                                                                                                                                                                                    comfort is our priority. Relax on the large sofa or at the table, or unwind in the immaculate bathroom. Enjoy stunning views of Green Garden with Balcony, making your stay a truly unforgettable experience in Vanya Resort Trinantara.
-                            
-                                                                                                                                                                                                    ' !!}
-                        </p>
-
-                        <a class="book-btn" href="https://asiatech.in/booking_engine/index3?token=Njk2NA==">Book Now</a>
-                    </div>
-                </div> --}}
+                
                 <div class="accomodation-cards">
                     <div class="accomodation-image">
                         <img src="{{ asset($home_plung_pool_room_image ?? './assets/img/plungpool.jpg') }}" alt=""
