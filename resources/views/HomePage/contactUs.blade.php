@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'Contact Us')
-@section('meta_description', "Get in touch with Trinantara Resort & Spa, your gateway to luxury in Jim Corbett. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
-@section('meta_keywords', 'Contact us,Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_description', "Get in touch with Trinantara Resort & Spa, your gateway to luxury in Vanya Resort. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
+@section('meta_keywords', 'Contact us,Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages Vanya Resort, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 <div class="information-content">
     <ul class="m-auto list-unstyled custom-container">
@@ -24,7 +24,7 @@
                             <ul class="list-unstyled">
                                 <li>
                                     <h4>Head Office</h4>
-                                    <p>{!! $location ?? 'Bail Pokra, Jim Corbett' !!}</p>
+                                    <p>{!! $location ?? 'Bail Pokra, Vanya Resort' !!}</p>
                                 </li>
                                 <li>
                                     <h4>E-mail Us</h4>

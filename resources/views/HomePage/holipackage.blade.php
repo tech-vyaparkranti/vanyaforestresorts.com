@@ -1,10 +1,10 @@
 @extends('layouts.webSite')
 @section('title', 'jim-corbett-holi-packages')
-@section('meta_description', 'Discover exclusive offers and packages at Trinantara Resort & Spa, Jim Corbett. From
+@section('meta_description', 'Discover exclusive offers and packages at Trinantara Resort & Spa, Vanya Resort. From
     romantic getaways to family vacations, enjoy luxury stays, exciting activities, and incredible deals tailored just for
 you.')
-@section('meta_keywords', 'Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim
-Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_keywords', 'Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages jim
+Corbett, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 
     <div id="about">
@@ -65,11 +65,11 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
                         </div>
                     </div>
                     <div class="text-content mt-5 ">
-                    <h5 class="text-justify mb-3">Celebrate Holi in Jim Corbett at VanyaForestResort & Sport – Holi Party 2025!</h5>
-                    <p class="text-justify">Experience the vibrant festival of colors like never before at  VanyaForestResort & Sport in the heart of Jim Corbett. Celebrate Holi 2025 with us and immerse yourself in a unique blend of tradition, adventure, and luxury. Our exclusive Holi Packages 2025 are designed to make your festival unforgettable, offering a perfect mix of fun, relaxation, and excitement.</p>
-                    <p class="text-justify">Join our Holi Party 2025 and groove to electrifying music, enjoy delicious traditional delicacies, and play with organic colors in a safe and eco-friendly environment. Surrounded by the serene beauty of Jim Corbett, our resort provides the ideal backdrop for a joyful celebration with family and friends.</p>
+                    <h5 class="text-justify mb-3">Celebrate Holi in Vanya Resort at VanyaForestResort & Sport – Holi Party 2025!</h5>
+                    <p class="text-justify">Experience the vibrant festival of colors like never before at  VanyaForestResort & Sport in the heart of Vanya Resort. Celebrate Holi 2025 with us and immerse yourself in a unique blend of tradition, adventure, and luxury. Our exclusive Holi Packages 2025 are designed to make your festival unforgettable, offering a perfect mix of fun, relaxation, and excitement.</p>
+                    <p class="text-justify">Join our Holi Party 2025 and groove to electrifying music, enjoy delicious traditional delicacies, and play with organic colors in a safe and eco-friendly environment. Surrounded by the serene beauty of Vanya Resort, our resort provides the ideal backdrop for a joyful celebration with family and friends.</p>
                     <p class="text-justify">Our Holi packages include luxurious accommodations, festive meals, and exciting activities like nature walks, bonfires, and more. Whether you're looking to unwind in our spacious rooms or indulge in adventure sports, Trinantara Resort & Sport has something for everyone.</p>
-                    <p class="text-justify">Don’t miss the chance to celebrate Holi in the lap of nature at one of the best resorts in Jim Corbett. Book your Holi Party 2025 package now and create memories that will last a lifetime!</p>
+                    <p class="text-justify">Don’t miss the chance to celebrate Holi in the lap of nature at one of the best resorts in Vanya Resort. Book your Holi Party 2025 package now and create memories that will last a lifetime!</p>
 
                     </div>
                     <div class="inclusion-main">

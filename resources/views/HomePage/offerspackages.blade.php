@@ -1,10 +1,10 @@
 @extends('layouts.webSite')
 @section('title', 'Offers & Packages')
-@section('meta_description', 'Discover exclusive offers and packages at Trinantara Resort & Spa, Jim Corbett. From
+@section('meta_description', 'Discover exclusive offers and packages at Trinantara Resort & Spa, Vanya Resort. From
     romantic getaways to family vacations, enjoy luxury stays, exciting activities, and incredible deals tailored just for
     you.')
-@section('meta_keywords', 'Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim
-    Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_keywords', 'Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages jim
+    Corbett, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 
     <div id="about">

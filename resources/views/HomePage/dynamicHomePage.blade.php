@@ -1,10 +1,10 @@
 @extends('layouts.webSite')
-@section('title', '5 Star Resort in Jim Corbett - Trinantara Resort & Spa')
+@section('title', '5 Star Resort in Vanya Resort - Trinantara Resort & Spa')
 @section('meta_keywords',
-    'Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort
-    in Jim Corbett national Park,')
+    'Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort
+    in Vanya Resort national Park,')
 @section('meta_description',
-    'Enjoy your stay at our 5 star resort in Jim Corbett which offer elegant accommodation and
+    'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and
     best in class amenities - Trinantara Resort & Spa')
 
 @section('content') {{-- @include('include.navigation') --}}
@@ -28,15 +28,15 @@
                         <p>
                             {!! $about_us_home_page_content ??
                                 'See why so many travelers make
-                                                                                                                                                        VanyaForestResort    their hotel of choice when visiting
-                                                                                                                                                        Jim Corbett. Providing an ideal mix of value, comfort and convenience,
-                                                                                                                                                        it offers a family-friendly setting with an array of amenities
-                                                                                                                                                        designed for travelers like you. Rooms at VanyaForestResort
-                                                                                                                                                        International offer a flat screen TV and air conditioning providing
-                                                                                                                                                        exceptional comfort and convenience. A 24 hour front desk, room
-                                                                                                                                                        service, and 24 hour check-in are some of the conveniences offered
-                                                                                                                                                        at this hotel. A lounge will also help to make your stay even more
-                                                                                                                                                        special.' !!}
+                                                                                                                                                                                    VanyaForestResort    their hotel of choice when visiting
+                                                                                                                                                                                    Vanya Resort. Providing an ideal mix of value, comfort and convenience,
+                                                                                                                                                                                    it offers a family-friendly setting with an array of amenities
+                                                                                                                                                                                    designed for travelers like you. Rooms at VanyaForestResort
+                                                                                                                                                                                    International offer a flat screen TV and air conditioning providing
+                                                                                                                                                                                    exceptional comfort and convenience. A 24 hour front desk, room
+                                                                                                                                                                                    service, and 24 hour check-in are some of the conveniences offered
+                                                                                                                                                                                    at this hotel. A lounge will also help to make your stay even more
+                                                                                                                                                                                    special.' !!}
                         </p>
                         <a href="{{ route('aboutUs') }}">More details</a>
 
@@ -56,9 +56,9 @@
                 <div class="col-lg-6 col-md-6  midd-content text-center">
                     <p>{!! $home_restaurant_content ??
                         'VanyaForestResort, a renowned culinary destination where every meal is a feast! Our extensive
-                                                                                                        buffet offers a diverse selection of mouth-watering dishes, catering to every palate. Join us at
-                                                                                                         VanyaForestResort for a buffet
-                                                                                                        experience that will tantalize your taste buds and leave you wanting more.' !!}</p>
+                                                                                                                            buffet offers a diverse selection of mouth-watering dishes, catering to every palate. Join us at
+                                                                                                                             VanyaForestResort for a buffet
+                                                                                                                            experience that will tantalize your taste buds and leave you wanting more.' !!}</p>
                     <!-- button -->
                     <a class="btn  mb-5 aos-init aos-animate" href="{{ route('contactUs') }}" data-aos="fade-up">Contact
                         us</a>
@@ -110,20 +110,20 @@
                         <p class="pt-3 pb-2 text-justify" id="para1">
                             {!! $home_premium_room_services ??
                                 'Experience luxury and comfort in our Premium Rooms, where every detail is designed to exceed your expectations. With 36 spacious rooms boasting king-size beds, AC, TV, mini refrigerator, and an almirah with a safety locker, your
-                                                                                                                                                                        comfort is our priority. Relax on the large sofa or at the table, or unwind in the immaculate bathroom. Enjoy stunning views of both the pool and the serene forest, making your stay a truly unforgettable experience.
-                                                                                                                                            ' !!}
+                                                                                                                                                                                                    comfort is our priority. Relax on the large sofa or at the table, or unwind in the immaculate bathroom. Enjoy stunning views of both the pool and the serene forest, making your stay a truly unforgettable experience.
+                                                                                                                                                                        ' !!}
                         </p>
 
                         <a class="book-btn" href="https://asiatech.in/booking_engine/index3?token=Njk2NA==">Book Now</a>
                     </div>
                 </div>
-                <div class="accomodation-cards">
+                {{-- <div class="accomodation-cards">
                     <div class="accomodation-image">
                         <img src="{{ asset($home_cottage_room_image ?? './assets/img/cottageroom1.jpg') }}" alt=""
                             class="img-fluid" />
                     </div>
                     <div class="accomodation-content">
-                        <h3>{!! $home_cottage_room_heading ?? 'Cottage Room' !!}</h3>
+                        <h3>{!! $home_cottage_room_heading ?? 'Cottage Room' !!}</h3> --}}
 
                         {{-- <ul>
             <li>
@@ -137,17 +137,17 @@
               $home_cottage_room_double_rate ?? '3499' !!}
             </li>
           </ul> --}}
-                        <p class="pt-3 pb-2 text-justify" id="para2">
+                        {{-- <p class="pt-3 pb-2 text-justify" id="para2">
                             {!! $home_cottage_room_services ??
                                 'Experience luxury and comfort in our Cottage Rooms, where every detail is designed to exceed your expectations. With 32 spacious rooms boasting king-size beds, AC, TV, mini refrigerator, and an almirah with a safety locker, your
-                                                                                                                                                                        comfort is our priority. Relax on the large sofa or at the table, or unwind in the immaculate bathroom. Enjoy stunning views of Green Garden with Balcony, making your stay a truly unforgettable experience in Jim Corbett Trinantara.
-
-                                                                                                                                                                        ' !!}
+                                                                                                                                                                                                    comfort is our priority. Relax on the large sofa or at the table, or unwind in the immaculate bathroom. Enjoy stunning views of Green Garden with Balcony, making your stay a truly unforgettable experience in Vanya Resort Trinantara.
+                            
+                                                                                                                                                                                                    ' !!}
                         </p>
 
                         <a class="book-btn" href="https://asiatech.in/booking_engine/index3?token=Njk2NA==">Book Now</a>
                     </div>
-                </div>
+                </div> --}}
                 <div class="accomodation-cards">
                     <div class="accomodation-image">
                         <img src="{{ asset($home_plung_pool_room_image ?? './assets/img/plungpool.jpg') }}" alt=""
@@ -166,10 +166,10 @@
                         <p class="pt-3 pb-2 text-justify" id="para3">
                             {!! $home_plung_pool_room_services ??
                                 'Indulge in family fun with our Family Plunge Pool Room, designed for unforgettable moments together. You can stay 4 Adults and 2 kid in this room. Relax in the comfort of two king-size beds and unwind on the cozy sofa while enjoying
-                                                                                                                                                                        entertainment on the TV. With two washrooms, there is ample space for everyone to freshen up. Step outside to your private plunge pool, or soak in the beauty of nature from the balcony overlooking the garden. Create lasting
-                                                                                                                                                                        memories in this spacious and inviting retreat.
-
-                                                                                                                                                                        ' !!}
+                                                                                                                                                                                                    entertainment on the TV. With two washrooms, there is ample space for everyone to freshen up. Step outside to your private plunge pool, or soak in the beauty of nature from the balcony overlooking the garden. Create lasting
+                                                                                                                                                                                                    memories in this spacious and inviting retreat.
+                            
+                                                                                                                                                                                                    ' !!}
                         </p>
 
                         <a class="book-btn" href="https://asiatech.in/booking_engine/index3?token=Njk2NA==">Book Now</a>
@@ -286,7 +286,8 @@
                                             alt="Banquet Hall" />
                                     </div>
                                     <div class="border-bottom">
-                                        <h5 class="text-center  py-2">Empower Your Team: Corporate Retreat at VanyaForestResort
+                                        <h5 class="text-center  py-2">Empower Your Team: Corporate Retreat at
+                                            VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class="p-2">
@@ -311,7 +312,8 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Celebrate Eternal Love: Wedding Bliss at VanyaForestResort
+                                        <h5 class="text-center  py-2">Celebrate Eternal Love: Wedding Bliss at
+                                            VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -340,7 +342,7 @@
                                     </div>
                                     <div class="d-flex border-bottom">
                                         <h5 class="text-center  py-2">
-                                            Escape to Serenity: Relaxation Package at  VanyaForestResort
+                                            Escape to Serenity: Relaxation Package at VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -389,7 +391,8 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Rekindle Love: Romantic Escape at VanyaForestResort</h5>
+                                        <h5 class="text-center  py-2">Rekindle Love: Romantic Escape at VanyaForestResort
+                                        </h5>
                                     </div>
                                     <div class=" p-2">
                                         <ul>
@@ -412,7 +415,8 @@
                                             alt="Beauty Parlour" />
                                     </div>
                                     <div class="d-flex border-bottom">
-                                        <h5 class="text-center  py-2">Blissful Beginnings: Honeymoon Package at VanyaForestResort
+                                        <h5 class="text-center  py-2">Blissful Beginnings: Honeymoon Package at
+                                            VanyaForestResort
                                         </h5>
                                     </div>
                                     <div class=" p-2">
@@ -449,23 +453,27 @@
                 <div class="col-md-12 col-sm-12 mt-2 mb-3">
                     <div class="swiper guest_review" data-aos="fade-up">
                         <div class="swiper-wrapper">
-                            @if(isset($review) && count($review) > 0)
-                                @foreach($review as $item)
+                            @if (isset($review) && count($review) > 0)
+                                @foreach ($review as $item)
                                     @php
                                         $urls = preg_split('/\s*,\s*/', $item->heading_middle);
                                         if (!function_exists('getYouTubeVideoId')) {
-                                            function getYouTubeVideoId($url) {
-                                                preg_match("/(?:https?:\/\/(?:www\.)?youtube\.com\/(?:[^\/\n\s]*\/\S+\/|(?:v|e(?:mbed)?)\/|\S+\/?|\S+\/?\/?))?([a-zA-Z0-9_-]{11})/i", $url, $matches);
+                                            function getYouTubeVideoId($url)
+                                            {
+                                                preg_match(
+                                                    "/(?:https?:\/\/(?:www\.)?youtube\.com\/(?:[^\/\n\s]*\/\S+\/|(?:v|e(?:mbed)?)\/|\S+\/?|\S+\/?\/?))?([a-zA-Z0-9_-]{11})/i",
+                                                    $url,
+                                                    $matches,
+                                                );
                                                 return isset($matches[1]) ? $matches[1] : null;
                                             }
                                         }
                                     @endphp
-                                    @foreach($urls as $originalUrl)
+                                    @foreach ($urls as $originalUrl)
                                         @php
                                             $src = $originalUrl;
                                             if (strpos($src, 'autoplay=1') === false) {
-
-                                                $separator = (strpos($src, '?') === false) ? '?' : '&';
+                                                $separator = strpos($src, '?') === false ? '?' : '&';
                                                 $videoId = getYouTubeVideoId($originalUrl);
 
                                                 // $src .= $separator . 'autoplay=1&mute=1&controls=1&loop=1&playlist=' . $videoId;
@@ -476,52 +484,37 @@
                                         <div class="swiper-slide">
                                             <div class="testimonials-block text-center">
                                                 <div class="right-testimonial">
-                                                    <iframe
-                                                        width="540"
-                                                        height="315"
-                                                        src="{{ $src }}"
-                                                        frameborder="0"
-                                                        class="desktop-video"
+                                                    <iframe width="540" height="315" src="{{ $src }}"
+                                                        frameborder="0" class="desktop-video"
                                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                                        allowfullscreen
-                                                    ></iframe>
+                                                        allowfullscreen></iframe>
                                                 </div>
                                             </div>
                                         </div>
                                     @endforeach
                                 @endforeach
                             @else
-
                                 <div class="swiper-slide">
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
-                                            <iframe
-                                                width="540"
-                                                height="315"
-                                                src="https://www.youtube.com/embed/qQI-3tNFQ7U?si=zaxYY1lok07Z0z27"
-                                            ></iframe>
+                                            <iframe width="540" height="315"
+                                                src="https://www.youtube.com/embed/qQI-3tNFQ7U?si=zaxYY1lok07Z0z27"></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
-                                            <iframe
-                                                width="540"
-                                                height="315"
-                                                src="https://www.youtube.com/embed/AP0Sg8WdR6Y?si=_K719f-hn4z9D17p"
-                                            ></iframe>
+                                            <iframe width="540" height="315"
+                                                src="https://www.youtube.com/embed/AP0Sg8WdR6Y?si=_K719f-hn4z9D17p"></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
-                                            <iframe
-                                                width="540"
-                                                height="315"
-                                                src="https://www.youtube.com/embed/f8e9ALsBo8g?si=hAyYS49frnOxNf0q"
-                                            ></iframe>
+                                            <iframe width="540" height="315"
+                                                src="https://www.youtube.com/embed/f8e9ALsBo8g?si=hAyYS49frnOxNf0q"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -722,19 +715,19 @@
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Does VanyaForestResort   have airport transportation?</h2>
+                            <h2>Does VanyaForestResort have airport transportation?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
                             <p>
-                                Yes, VanyaForestResort  International offers airport transportation for
+                                Yes, VanyaForestResort International offers airport transportation for
                                 guests. We recommend calling ahead to confirm details.
                             </p>
                         </div>
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Is VanyaForestResort  International located near the city center?</h2>
+                            <h2>Is VanyaForestResort International located near the city center?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -744,7 +737,7 @@
                     <div class="accordion">
                         <div class="accordion__header">
                             <h2>
-                                Are any cleaning services offered at VanyaForestResort  International?
+                                Are any cleaning services offered at VanyaForestResort International?
                             </h2>
                             <span class="accordion__toggle"></span>
                         </div>
@@ -754,7 +747,7 @@
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Are pets allowed at VanyaForestResort  International?</h2>
+                            <h2>Are pets allowed at VanyaForestResort International?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -766,7 +759,7 @@
                     </div>
                     <div class="accordion">
                         <div class="accordion__header">
-                            <h2>Does VanyaForestResort  International offer any business services?</h2>
+                            <h2>Does VanyaForestResort International offer any business services?</h2>
                             <span class="accordion__toggle"></span>
                         </div>
                         <div class="accordion__body">
@@ -803,216 +796,217 @@
                     </div>
                 </div>
             </div>
-                <div class="swiper pb-4 blog-section" data-aos="fade-up">
-                    <div class="swiper-wrapper">
-                        @if(isset($blogs)&& count($blogs)>0)
-                            @foreach($blogs as $blog)
+            <div class="swiper pb-4 blog-section" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    @if (isset($blogs) && count($blogs) > 0)
+                        @foreach ($blogs as $blog)
                             <div class="swiper-slide">
                                 <div class="blog-card mb-3">
                                     {{-- <a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}"> --}}
-                                        <div class="blog-card-container">
-                                            <a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}">
+                                    <div class="blog-card-container">
+                                        <a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}">
                                             <img src="{{ asset($blog->image) }}" alt="blog image">
-                                            </a>
-                                            <div class="card-content">
-                                                <h4 class="blog_heading">{{ $blog->title }}</h4>
-                                                <p class="blog-content">{{ $blog->short_content }}</p>
-                                                <ul class="blog_social_links mb-3">
-                                                    <li><a href="{{ $blog->facebook_link }}"><i
-                                                                class="fa-brands fa-facebook-f"></i></a></li>
-                                                    <li><a href="{{ $blog->instagram_link }}"><i
-                                                                class="fa-brands fa-instagram"></i></a></li>
-                                                    <li><a href="{{ $blog->twitter_link }}"><i
-                                                                class="fa-brands fa-x-twitter"></i></a></li>
-                                                    <li><a href="{{ $blog->youtube_link }}"><i
-                                                                class="fa-brands fa-youtube"></i></a></li>
-                                                </ul>
-                                                <span><a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}">Read more</a></span>
-                                            </div>
+                                        </a>
+                                        <div class="card-content">
+                                            <h4 class="blog_heading">{{ $blog->title }}</h4>
+                                            <p class="blog-content">{{ $blog->short_content }}</p>
+                                            <ul class="blog_social_links mb-3">
+                                                <li><a href="{{ $blog->facebook_link }}"><i
+                                                            class="fa-brands fa-facebook-f"></i></a></li>
+                                                <li><a href="{{ $blog->instagram_link }}"><i
+                                                            class="fa-brands fa-instagram"></i></a></li>
+                                                <li><a href="{{ $blog->twitter_link }}"><i
+                                                            class="fa-brands fa-x-twitter"></i></a></li>
+                                                <li><a href="{{ $blog->youtube_link }}"><i
+                                                            class="fa-brands fa-youtube"></i></a></li>
+                                            </ul>
+                                            <span><a href="{{ route('blogDetail', ['slug' => $blog->slug]) }}">Read
+                                                    more</a></span>
                                         </div>
+                                    </div>
                                     {{-- </a> --}}
                                 </div>
                             </div>
-                            @endforeach
-                        @else
-                            <div class="swiper-slide">
-                                <div class="blog-card mb-3">
-                                    <div class="blog-card-container">
-                                        <img src="./assets/img/cottageroom1.jpg" alt="blog image">
-                                        <div class="card-content">
-                                            <h4 class="blog_heading">VanyaForestResort: Your Gateway to Adventure and
-                                                Relaxation in Jim
-                                                Corbett</h4>
-                                            <p class="blog-content">Being perfectly combined with thrills of adventure and
-                                                peace at large,
-                                                VanyaForestResort, offering thrilling safari visits, offers the guest
-                                                relaxing
-                                                atmospheres.
-                                                Be it taking up wildlife of Corbett or just unwinding amidst luxury lodging,
-                                                resort leaves a
-                                                good memory and even guides through tenures to conditioning for nature-lover
-                                                and
-                                                adventure-lovers, in turn.</p>
-                                            <ul class="blog_social_links mb-3">
-                                                <li><a href="https://www.facebook.com/trinantararesort"><i
-                                                            class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li><a href="https://www.instagram.com/trinantararesort"><i
-                                                            class="fa-brands fa-instagram"></i></a></li>
-                                                <li><a href="https://x.com/trinantararmr"><i
-                                                            class="fa-brands fa-x-twitter"></i></a></li>
-                                                <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
-                                                            class="fa-brands fa-youtube"></i></a></li>
-                                            </ul>
-                                            {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
-                                        </div>
+                        @endforeach
+                    @else
+                        <div class="swiper-slide">
+                            <div class="blog-card mb-3">
+                                <div class="blog-card-container">
+                                    <img src="./assets/img/cottageroom1.jpg" alt="blog image">
+                                    <div class="card-content">
+                                        <h4 class="blog_heading">VanyaForestResort: Your Gateway to Adventure and
+                                            Relaxation in Jim
+                                            Corbett</h4>
+                                        <p class="blog-content">Being perfectly combined with thrills of adventure and
+                                            peace at large,
+                                            VanyaForestResort, offering thrilling safari visits, offers the guest
+                                            relaxing
+                                            atmospheres.
+                                            Be it taking up wildlife of Corbett or just unwinding amidst luxury lodging,
+                                            resort leaves a
+                                            good memory and even guides through tenures to conditioning for nature-lover
+                                            and
+                                            adventure-lovers, in turn.</p>
+                                        <ul class="blog_social_links mb-3">
+                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                                        class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                                        class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://x.com/trinantararmr"><i
+                                                        class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                                        class="fa-brands fa-youtube"></i></a></li>
+                                        </ul>
+                                        {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="blog-card mb-3">
-                                    <div class="blog-card-container">
-                                        <img src="./assets/img/gallery2.jpg" alt="blog image">
-                                        <div class="card-content">
-                                            <h4 class="blog_heading">Family-Friendly Stays at Trinantara Resort a Perfect
-                                                holiday in Jim
-                                                Corbett</h4>
-                                            <p class="blog-content">VanyaForestResort suits family recesses offering
-                                                commodious
-                                                lodgment
-                                                and instigative conditioning for all periods. Its nature walks and jeep
-                                                safaris
-                                                make it
-                                                possible to carry out all this safely and will be remembered as a life
-                                                experience for the
-                                                families enjoying quality time surrounded by astonishing geographies,
-                                                wildlife,
-                                                and
-                                                top-league amenities designed purely for family comfort.</p>
-                                            <ul class="blog_social_links mb-3">
-                                                <li><a href="https://www.facebook.com/trinantararesort"><i
-                                                            class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li><a href="https://www.instagram.com/trinantararesort"><i
-                                                            class="fa-brands fa-instagram"></i></a></li>
-                                                <li><a href="https://x.com/trinantararmr"><i
-                                                            class="fa-brands fa-x-twitter"></i></a></li>
-                                                <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
-                                                            class="fa-brands fa-youtube"></i></a></li>
-                                            </ul>
-                                            {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
-                                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card mb-3">
+                                <div class="blog-card-container">
+                                    <img src="./assets/img/gallery2.jpg" alt="blog image">
+                                    <div class="card-content">
+                                        <h4 class="blog_heading">Family-Friendly Stays at Trinantara Resort a Perfect
+                                            holiday in Jim
+                                            Corbett</h4>
+                                        <p class="blog-content">VanyaForestResort suits family recesses offering
+                                            commodious
+                                            lodgment
+                                            and instigative conditioning for all periods. Its nature walks and jeep
+                                            safaris
+                                            make it
+                                            possible to carry out all this safely and will be remembered as a life
+                                            experience for the
+                                            families enjoying quality time surrounded by astonishing geographies,
+                                            wildlife,
+                                            and
+                                            top-league amenities designed purely for family comfort.</p>
+                                        <ul class="blog_social_links mb-3">
+                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                                        class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                                        class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://x.com/trinantararmr"><i
+                                                        class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                                        class="fa-brands fa-youtube"></i></a></li>
+                                        </ul>
+                                        {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="blog-card mb-3">
-                                    <div class="blog-card-container">
-                                        <img src="./assets/img/gallery2.jpg" alt="blog image">
-                                        <div class="card-content">
-                                            <h4 class="blog_heading">Family-Friendly Stays at VanyaForestResort a Perfect
-                                                holiday in Jim
-                                                Corbett</h4>
-                                            <p class="blog-content">VanyaForestResort suits family recesses offering
-                                                commodious
-                                                lodgment
-                                                and instigative conditioning for all periods. Its nature walks and jeep
-                                                safaris
-                                                make it
-                                                possible to carry out all this safely and will be remembered as a life
-                                                experience for the
-                                                families enjoying quality time surrounded by astonishing geographies,
-                                                wildlife,
-                                                and
-                                                top-league amenities designed purely for family comfort.</p>
-                                            <ul class="blog_social_links mb-3">
-                                                <li><a href="https://www.facebook.com/trinantararesort"><i
-                                                            class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li><a href="https://www.instagram.com/trinantararesort"><i
-                                                            class="fa-brands fa-instagram"></i></a></li>
-                                                <li><a href="https://x.com/trinantararmr"><i
-                                                            class="fa-brands fa-x-twitter"></i></a></li>
-                                                <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
-                                                            class="fa-brands fa-youtube"></i></a></li>
-                                            </ul>
-                                            {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
-                                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card mb-3">
+                                <div class="blog-card-container">
+                                    <img src="./assets/img/gallery2.jpg" alt="blog image">
+                                    <div class="card-content">
+                                        <h4 class="blog_heading">Family-Friendly Stays at VanyaForestResort a Perfect
+                                            holiday in Jim
+                                            Corbett</h4>
+                                        <p class="blog-content">VanyaForestResort suits family recesses offering
+                                            commodious
+                                            lodgment
+                                            and instigative conditioning for all periods. Its nature walks and jeep
+                                            safaris
+                                            make it
+                                            possible to carry out all this safely and will be remembered as a life
+                                            experience for the
+                                            families enjoying quality time surrounded by astonishing geographies,
+                                            wildlife,
+                                            and
+                                            top-league amenities designed purely for family comfort.</p>
+                                        <ul class="blog_social_links mb-3">
+                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                                        class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                                        class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://x.com/trinantararmr"><i
+                                                        class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                                        class="fa-brands fa-youtube"></i></a></li>
+                                        </ul>
+                                        {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="swiper-slide">
-                                <div class="blog-card mb-3">
-                                    <div class="blog-card-container">
-                                        <img src="./assets/img/anniversaries.jpeg" alt="blog image">
-                                        <div class="card-content">
-                                            <h4 class="blog_heading">Romantic lams at VanyaForestResort an Idyllic Escape
-                                                in
-                                                Jim Corbett
-                                            </h4>
-                                            <p class="blog-content">For couples looking to love, VanyaForestResort is the
-                                                perfect isolated
-                                                flight. Enjoy luxurious lodgement, private feasts under the stars, and
-                                                peaceful
-                                                walks
-                                                through the scenic surroundings. With substantiated services and stirring
-                                                views,
-                                                the resort
-                                                provides a serene, intimate setting for an indelible romantic retreat in Jim
-                                                Corbett.</p>
-                                            <ul class="blog_social_links mb-3">
-                                                <li><a href="https://www.facebook.com/trinantararesort"><i
-                                                            class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li><a href="https://www.instagram.com/trinantararesort"><i
-                                                            class="fa-brands fa-instagram"></i></a></li>
-                                                <li><a href="https://x.com/trinantararmr"><i
-                                                            class="fa-brands fa-x-twitter"></i></a></li>
-                                                <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
-                                                            class="fa-brands fa-youtube"></i></a></li>
-                                            </ul>
-                                            {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
-                                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card mb-3">
+                                <div class="blog-card-container">
+                                    <img src="./assets/img/anniversaries.jpeg" alt="blog image">
+                                    <div class="card-content">
+                                        <h4 class="blog_heading">Romantic lams at VanyaForestResort an Idyllic Escape
+                                            in
+                                            Vanya Resort
+                                        </h4>
+                                        <p class="blog-content">For couples looking to love, VanyaForestResort is the
+                                            perfect isolated
+                                            flight. Enjoy luxurious lodgement, private feasts under the stars, and
+                                            peaceful
+                                            walks
+                                            through the scenic surroundings. With substantiated services and stirring
+                                            views,
+                                            the resort
+                                            provides a serene, intimate setting for an indelible romantic retreat in Jim
+                                            Corbett.</p>
+                                        <ul class="blog_social_links mb-3">
+                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                                        class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                                        class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://x.com/trinantararmr"><i
+                                                        class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                                        class="fa-brands fa-youtube"></i></a></li>
+                                        </ul>
+                                        {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="blog-card mb-3">
-                                    <div class="blog-card-container">
-                                        <img src="./assets/img/gallery6.jpg" alt="blog image">
-                                        <div class="card-content">
-                                            <h4 class="blog_heading">VanyaForestResort Eco-Friendly Villas Sustainable
-                                                Luxury
-                                                in Jim
-                                                Corbett</h4>
-                                            <p class="blog-content">VanyaForestResort Eco-friendly estates offer a
-                                                luxurious
-                                                yet
-                                                sustainable stay. erected with environmentally conscious accoutrements,
-                                                these
-                                                estates blend
-                                                ultramodern comfort with natural surroundings. Guests can enjoy the beauty
-                                                of
-                                                Corbett
-                                                National Park while being aware of their environmental impact, making it the
-                                                perfect choice
-                                                forego-conscious trippers</p>
-                                            <ul class="blog_social_links mb-3">
-                                                <li><a href="https://www.facebook.com/trinantararesort"><i
-                                                            class="fa-brands fa-facebook-f"></i></a></li>
-                                                <li><a href="https://www.instagram.com/trinantararesort"><i
-                                                            class="fa-brands fa-instagram"></i></a></li>
-                                                <li><a href="https://x.com/trinantararmr"><i
-                                                            class="fa-brands fa-x-twitter"></i></a></li>
-                                                <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
-                                                            class="fa-brands fa-youtube"></i></a></li>
-                                            </ul>
-                                            {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
-                                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog-card mb-3">
+                                <div class="blog-card-container">
+                                    <img src="./assets/img/gallery6.jpg" alt="blog image">
+                                    <div class="card-content">
+                                        <h4 class="blog_heading">VanyaForestResort Eco-Friendly Villas Sustainable
+                                            Luxury
+                                            in Jim
+                                            Corbett</h4>
+                                        <p class="blog-content">VanyaForestResort Eco-friendly estates offer a
+                                            luxurious
+                                            yet
+                                            sustainable stay. erected with environmentally conscious accoutrements,
+                                            these
+                                            estates blend
+                                            ultramodern comfort with natural surroundings. Guests can enjoy the beauty
+                                            of
+                                            Corbett
+                                            National Park while being aware of their environmental impact, making it the
+                                            perfect choice
+                                            forego-conscious trippers</p>
+                                        <ul class="blog_social_links mb-3">
+                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                                        class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                                        class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://x.com/trinantararmr"><i
+                                                        class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                                        class="fa-brands fa-youtube"></i></a></li>
+                                        </ul>
+                                        {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                        @endif
-                    </div>
+                    @endif
                 </div>
+            </div>
 
 
         </div>
@@ -1026,22 +1020,25 @@
         .flex-fill .btn-primary {
             background: #041443 !important;
         }
-        .guest_review{
+
+        .guest_review {
             overflow: hidden;
         }
-       .right-testimonial iframe {
-    width: 100%;
-    height: 315px;
-    filter: none !important;
-}
-@media(max-width:992px){
-    .right-testimonial iframe {
-    width: 100% !important;
-    height: 315px;
-    display: block;
-    filter: none !important;
-}
-}
+
+        .right-testimonial iframe {
+            width: 100%;
+            height: 315px;
+            filter: none !important;
+        }
+
+        @media(max-width:992px) {
+            .right-testimonial iframe {
+                width: 100% !important;
+                height: 315px;
+                display: block;
+                filter: none !important;
+            }
+        }
     </style>
 @endsection
 
@@ -1170,4 +1167,3 @@
     </script>
 
 @endsection
-

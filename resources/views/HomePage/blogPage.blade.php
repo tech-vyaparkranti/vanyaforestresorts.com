@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'Blog')
-@section('meta_description', 'Discover the exceptional amenities at Trinantara Resort & Spa, Jim Corbett. From spa and swimming pool to fine dining and adventure activities.')
-@section('meta_keywords', 'Spa & Wellness, Spa Resort in Jim Corbett, Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort in Jim Corbett national Park, Luxury Resort in Jim Corbett')
+@section('meta_description', 'Discover the exceptional amenities at Trinantara Resort & Spa, Vanya Resort. From spa and swimming pool to fine dining and adventure activities.')
+@section('meta_keywords', 'Spa & Wellness, Spa Resort in Vanya Resort, Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
 @section('content')
 <div id="about">
     <div class="default-content pt-4 pb-3 our-service-page">
@@ -74,7 +74,7 @@
                                 <img src="./assets/img/cottageroom1.jpg" alt="blog image">
                                 <div class="card-content">
                                     <h4 class="blog_heading">VanyaForestResort: Your Gateway to Adventure and Relaxation in
-                                        Jim Corbett</h4>
+                                        Vanya Resort</h4>
                                     <p class="blog-content">Being perfectly combined with thrills of adventure and peace at
                                         large,VanyaForestResort, offering thrilling safari visits, offers the guest
                                         relaxing atmospheres. Be it taking up wildlife of Corbett or just unwinding amidst

@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'Amenities & Activities')
-@section('meta_description', 'Discover the exceptional amenities at Trinantara Resort & Spa, Jim Corbett. From spa and swimming pool to fine dining and adventure activities.')
-@section('meta_keywords', 'Spa & Wellness, Spa Resort in Jim Corbett, Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort in Jim Corbett national Park, Luxury Resort in Jim Corbett')
+@section('meta_description', 'Discover the exceptional amenities at Trinantara Resort & Spa, Vanya Resort. From spa and swimming pool to fine dining and adventure activities.')
+@section('meta_keywords', 'Spa & Wellness, Spa Resort in Vanya Resort, Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
 @section('content')
 
 <div id="about">

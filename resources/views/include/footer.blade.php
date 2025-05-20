@@ -56,7 +56,7 @@
                         </div>
                         <div class="footer-item pb-3">
                             <label>Address:</label>
-                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;{!! $location ?? 'Bail Pokra, Jim Corbett' !!}</p>
+                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;{!! $location ?? 'Bail Pokra, Vanya Resort' !!}</p>
                         </div>
                     </div>
                 </div>
