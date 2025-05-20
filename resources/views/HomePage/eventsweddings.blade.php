@@ -1,6 +1,6 @@
 @extends('layouts.webSite')
 @section('title', 'Weddings & Events in Vanya Resort')
-@section('meta_description', 'Host your dream event or wedding at Trinantara Resort & Spa, Vanya Resort. With stunning venues, world-class services, and a scenic backdrop, make your special occasion truly memorable.')
+@section('meta_description', 'Host your dream event or wedding at Vanya Forest  Resort & Spa, Vanya Resort. With stunning venues, world-class services, and a scenic backdrop, make your special occasion truly memorable.')
 @section('meta_keywords', 'Destination Wedding, Wedding in Vanya Resort, best destination wedding venue in india, corporate events, group activities, Wedding Resort in Vanya Resort')
 @section('content')
 

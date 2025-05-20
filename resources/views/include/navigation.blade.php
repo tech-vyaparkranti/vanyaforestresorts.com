@@ -2,7 +2,7 @@
 <header class="main-header">
     <div class="header-contaner">
         <div class="logo-section">
-            <a href="{{ url('/') }}" aria-level="Main logo"><img src="{{ asset($Logo ?? './assets/img/logo.png') }}" class="img-fluid"  alt="Trinantararesort"></a>
+            <a href="{{ url('/') }}" aria-level="Main logo"><img src="{{ asset($Logo ?? './assets/img/logo.png') }}" class="img-fluid"  alt="Vanya Forest resort"></a>
         </div>
         {{-- <div class="contact-list">
             <ul class="contact-container">
@@ -19,7 +19,7 @@
 
                 {{-- </li>
                 <li class="contact-items">
-                    <a href="mailto:{!! $contact_us_email??"sales1@trinantararesort.com" !!}"><i class="fa-solid fa-envelope"></i><span>E-mail</span><p>{!! $contact_us_email??"sales1@trinantararesort.com" !!}</p></a>
+                    <a href="mailto:{!! $contact_us_email??"sales1@Vanya Forest resort.com" !!}"><i class="fa-solid fa-envelope"></i><span>E-mail</span><p>{!! $contact_us_email??"sales1@Vanya Forest resort.com" !!}</p></a>
                 </li>
             </ul>
         </div> --}}

@@ -1,8 +1,8 @@
 @extends('layouts.webSite')
 @section('title', 'VanyaForestResort')
-@section('meta_description', 'Discover Trinantara Resort & Spa, the best luxury retreat in Vanya Resort. Our resort
+@section('meta_description', 'Discover Vanya Forest  Resort & Spa, the best luxury retreat in Vanya Resort. Our resort
     offers serene accommodation, spa services and premium hospitality')
-@section('meta_keywords', 'Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort
+@section('meta_keywords', 'Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort
     in Vanya Resort national Park, Luxury Resort in Vanya Resort')
 
 @section('content')

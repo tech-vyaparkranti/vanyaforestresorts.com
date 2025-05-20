@@ -1,8 +1,8 @@
 @extends('layouts.webSite')
 
 @section('title', 'Luxury Rooms & Suites')
-@section('meta_description', 'Explore the luxurious rooms at Trinantara Resort & Spa in Vanya Resort. Experience comfort, elegance and stunning views with our premium accommodations')
-@section('meta_keywords', 'Premium Rooms, Luxury Accommodation in Vanya Resort, Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
+@section('meta_description', 'Explore the luxurious rooms at Vanya Forest  Resort & Spa in Vanya Resort. Experience comfort, elegance and stunning views with our premium accommodations')
+@section('meta_keywords', 'Premium Rooms, Luxury Accommodation in Vanya Resort, Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
 
 @section('content')
 

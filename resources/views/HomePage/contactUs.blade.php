@@ -1,6 +1,6 @@
 @extends('layouts.webSite')
 @section('title', 'Contact Us')
-@section('meta_description', "Get in touch with Trinantara Resort & Spa, your gateway to luxury in Vanya Resort. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
+@section('meta_description', "Get in touch with Vanya Forest  Resort & Spa, your gateway to luxury in Vanya Resort. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
 @section('meta_keywords', 'Contact us,Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages Vanya Resort, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 <div class="information-content">
@@ -37,9 +37,9 @@
                             </ul>
                             <p>Follow our social media</p>
                             <ul class="list-unstyled socil-media">
-                                <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/trinantararesort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/trinantararmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/trinantararesort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/Vanya Forest resort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/Vanya Forest rmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/Vanya Forest resort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

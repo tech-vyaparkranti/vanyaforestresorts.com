@@ -1,18 +1,18 @@
 @extends('layouts.webSite')
-@section('title', '5 Star Resort in Vanya Resort - Trinantara Resort & Spa')
+@section('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')
 @section('meta_keywords',
-    'Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort
+    'Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort
     in Vanya Resort national Park,')
 @section('meta_description',
     'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and
-    best in class amenities - Trinantara Resort & Spa')
+    best in class amenities - Vanya Forest  Resort & Spa')
 
 @section('content') {{-- @include('include.navigation') --}}
     @include('include.slider')
     <!-- aboutus Section -->
     <div class="destinations pt-5 pb-3">
         <div class="custom-container">
-            <div class="site-title text-center trinantararesort-heading
+            <div class="site-title text-center Vanya Forest resort-heading
     ">
                 <h1><label>About</label> VanyaForestResort</h1>
                 {{--
@@ -67,8 +67,8 @@
                 <div class="col-lg-6 col-md-6 ">
                     <!--image -->
                     <img loading="lazy"
-                        src="{{ asset($home_restaurant_image ?? './assets/img/trinantara-restaurants.jpg') }}"
-                        alt="Trinantara Restaurant" class="img-fluid">
+                        src="{{ asset($home_restaurant_image ?? './assets/img/Vanya Forest -restaurants.jpg') }}"
+                        alt="Vanya Forest  Restaurant" class="img-fluid">
                 </div>
                 <!-- /col -->
             </div>
@@ -468,7 +468,7 @@
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
                                             <iframe width="540" height="315"
-                                                src="https://www.youtube.com/embed/qQI-3tNFQ7U?si=zaxYY1lok07Z0z27"></iframe>
+                                                src="https://www.youtube.com/embed/S7cw5Ef6xwM?si=z-0FDnqr-VDxefqN"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -476,7 +476,7 @@
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
                                             <iframe width="540" height="315"
-                                                src="https://www.youtube.com/embed/AP0Sg8WdR6Y?si=_K719f-hn4z9D17p"></iframe>
+                                                src="https://www.youtube.com/embed/S7cw5Ef6xwM?si=z-0FDnqr-VDxefqN"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -484,7 +484,7 @@
                                     <div class="testimonials-block text-center">
                                         <div class="right-testimonial">
                                             <iframe width="540" height="315"
-                                                src="https://www.youtube.com/embed/f8e9ALsBo8g?si=hAyYS49frnOxNf0q"></iframe>
+                                                src="https://www.youtube.com/embed/S7cw5Ef6xwM?si=z-0FDnqr-VDxefqN"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -805,26 +805,26 @@
                                     <img src="./assets/img/cottageroom1.jpg" alt="blog image">
                                     <div class="card-content">
                                         <h4 class="blog_heading">VanyaForestResort: Your Gateway to Adventure and
-                                            Relaxation in Jim
-                                            Corbett</h4>
+                                            Relaxation in
+                                            Vanya</h4>
                                         <p class="blog-content">Being perfectly combined with thrills of adventure and
                                             peace at large,
                                             VanyaForestResort, offering thrilling safari visits, offers the guest
                                             relaxing
                                             atmospheres.
-                                            Be it taking up wildlife of Corbett or just unwinding amidst luxury lodging,
+                                            Be it taking up wildlife of Vanya or just unwinding amidst luxury lodging,
                                             resort leaves a
                                             good memory and even guides through tenures to conditioning for nature-lover
                                             and
                                             adventure-lovers, in turn.</p>
                                         <ul class="blog_social_links mb-3">
-                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                            <li><a href="https://www.facebook.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                            <li><a href="https://www.instagram.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-instagram"></i></a></li>
-                                            <li><a href="https://x.com/trinantararmr"><i
+                                            <li><a href="https://x.com/Vanya Forest rmr"><i
                                                         class="fa-brands fa-x-twitter"></i></a></li>
-                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                            <li><a href="https://www.youtube.com/@Vanya Forest resortandspa"><i
                                                         class="fa-brands fa-youtube"></i></a></li>
                                         </ul>
                                         {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
@@ -837,9 +837,9 @@
                                 <div class="blog-card-container">
                                     <img src="./assets/img/gallery2.jpg" alt="blog image">
                                     <div class="card-content">
-                                        <h4 class="blog_heading">Family-Friendly Stays at Trinantara Resort a Perfect
-                                            holiday in Jim
-                                            Corbett</h4>
+                                        <h4 class="blog_heading">Family-Friendly Stays at Vanya Forest  Resort a Perfect
+                                            holiday in
+                                            Vanya Forest Resort</h4>
                                         <p class="blog-content">VanyaForestResort suits family recesses offering
                                             commodious
                                             lodgment
@@ -853,13 +853,13 @@
                                             and
                                             top-league amenities designed purely for family comfort.</p>
                                         <ul class="blog_social_links mb-3">
-                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                            <li><a href="https://www.facebook.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                            <li><a href="https://www.instagram.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-instagram"></i></a></li>
-                                            <li><a href="https://x.com/trinantararmr"><i
+                                            <li><a href="https://x.com/Vanya Forest rmr"><i
                                                         class="fa-brands fa-x-twitter"></i></a></li>
-                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                            <li><a href="https://www.youtube.com/@Vanya Forest resortandspa"><i
                                                         class="fa-brands fa-youtube"></i></a></li>
                                         </ul>
                                         {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
@@ -873,8 +873,8 @@
                                     <img src="./assets/img/gallery2.jpg" alt="blog image">
                                     <div class="card-content">
                                         <h4 class="blog_heading">Family-Friendly Stays at VanyaForestResort a Perfect
-                                            holiday in Jim
-                                            Corbett</h4>
+                                            holiday in 
+                                            Vanya Forest Resort</h4>
                                         <p class="blog-content">VanyaForestResort suits family recesses offering
                                             commodious
                                             lodgment
@@ -888,13 +888,13 @@
                                             and
                                             top-league amenities designed purely for family comfort.</p>
                                         <ul class="blog_social_links mb-3">
-                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                            <li><a href="https://www.facebook.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                            <li><a href="https://www.instagram.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-instagram"></i></a></li>
-                                            <li><a href="https://x.com/trinantararmr"><i
+                                            <li><a href="https://x.com/Vanya Forest rmr"><i
                                                         class="fa-brands fa-x-twitter"></i></a></li>
-                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                            <li><a href="https://www.youtube.com/@Vanya Forest resortandspa"><i
                                                         class="fa-brands fa-youtube"></i></a></li>
                                         </ul>
                                         {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
@@ -909,8 +909,7 @@
                                     <img src="./assets/img/anniversaries.jpeg" alt="blog image">
                                     <div class="card-content">
                                         <h4 class="blog_heading">Romantic lams at VanyaForestResort an Idyllic Escape
-                                            in
-                                            Vanya Resort
+                                            in Vanya Forest Resort
                                         </h4>
                                         <p class="blog-content">For couples looking to love, VanyaForestResort is the
                                             perfect isolated
@@ -920,16 +919,16 @@
                                             through the scenic surroundings. With substantiated services and stirring
                                             views,
                                             the resort
-                                            provides a serene, intimate setting for an indelible romantic retreat in Jim
-                                            Corbett.</p>
+                                            provides a serene, intimate setting for an indelible romantic retreat in
+                                            Vanya Forest Resort.</p>
                                         <ul class="blog_social_links mb-3">
-                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                            <li><a href="https://www.facebook.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                            <li><a href="https://www.instagram.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-instagram"></i></a></li>
-                                            <li><a href="https://x.com/trinantararmr"><i
+                                            <li><a href="https://x.com/Vanya Forest rmr"><i
                                                         class="fa-brands fa-x-twitter"></i></a></li>
-                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                            <li><a href="https://www.youtube.com/@Vanya Forest resortandspa"><i
                                                         class="fa-brands fa-youtube"></i></a></li>
                                         </ul>
                                         {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}
@@ -943,29 +942,20 @@
                                     <img src="./assets/img/gallery6.jpg" alt="blog image">
                                     <div class="card-content">
                                         <h4 class="blog_heading">VanyaForestResort Eco-Friendly Villas Sustainable
-                                            Luxury
-                                            in Jim
-                                            Corbett</h4>
+                                            Luxury in Vanya Forest Resort</h4>
                                         <p class="blog-content">VanyaForestResort Eco-friendly estates offer a
-                                            luxurious
-                                            yet
-                                            sustainable stay. erected with environmentally conscious accoutrements,
-                                            these
-                                            estates blend
-                                            ultramodern comfort with natural surroundings. Guests can enjoy the beauty
-                                            of
-                                            Corbett
-                                            National Park while being aware of their environmental impact, making it the
-                                            perfect choice
-                                            forego-conscious trippers</p>
+                                            luxurious yet sustainable stay. erected with environmentally conscious accoutrements,
+                                            these estates blend ultramodern comfort with natural surroundings. Guests can enjoy the beauty
+                                            of  Vanya Forest Resort National Park while being aware of their environmental impact, making it the
+                                            perfect choice forego-conscious trippers</p>
                                         <ul class="blog_social_links mb-3">
-                                            <li><a href="https://www.facebook.com/trinantararesort"><i
+                                            <li><a href="https://www.facebook.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li><a href="https://www.instagram.com/trinantararesort"><i
+                                            <li><a href="https://www.instagram.com/Vanya Forest resort"><i
                                                         class="fa-brands fa-instagram"></i></a></li>
-                                            <li><a href="https://x.com/trinantararmr"><i
+                                            <li><a href="https://x.com/Vanya Forest rmr"><i
                                                         class="fa-brands fa-x-twitter"></i></a></li>
-                                            <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                            <li><a href="https://www.youtube.com/@Vanya Forest resortandspa"><i
                                                         class="fa-brands fa-youtube"></i></a></li>
                                         </ul>
                                         {{-- <span><a href="{{ route('blogDetail', $blogs->id) }}">Read more</a></span> --}}

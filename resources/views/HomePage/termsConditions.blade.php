@@ -17,8 +17,8 @@
                 </div>
                 <div class="midd-content">
                     <p class="text-justify">
-                        Welcome to Trinantara Resort & Spa. By accessing and using our website
-                        <span class="clickable-link">https://www.trinantararesorts.com</span>,
+                        Welcome to Vanya Forest  Resort & Spa. By accessing and using our website
+                        <span class="clickable-link">https://www.Vanya Forest resorts.com</span>,
                         you agree to comply with the following terms and conditions. Please read them carefully before making any bookings or using our services.
                     </p>
                     <ol class="terms-list">
@@ -26,7 +26,7 @@
                             <h5>General Terms</h5>
                             <ul class="custom-bullets">
                                 <li class="text-justify" >The content of this website is for general information and use only. It is subject to change without notice.</li>
-                                <li class="text-justify">Trinantara Resort & Spa reserves the right to update, modify, or amend these Terms and Conditions at any time without prior notification.</li>
+                                <li class="text-justify">Vanya Forest  Resort & Spa reserves the right to update, modify, or amend these Terms and Conditions at any time without prior notification.</li>
                             </ul>
                         </li>
 <br>
@@ -73,7 +73,7 @@
                                 <li class="text-justify">Any damage to property caused by the guest or their party will be charged to the guest.</li>
                             </ul>
 <br>
-                            <li><h5>Dining Hours at Trinantara Resort & Spa</h5>
+                            <li><h5>Dining Hours at Vanya Forest  Resort & Spa</h5>
                                 <ul class="custom-bullets">
                                     <li class="text-justify"><b>Breakfast:</b> 8:00 AM – 10:30 AM | <b>Lunch:</b> 1:00 PM – 3:00 PM | <b>Dinner:</b> 8:00 PM – 10:30 PM</li>
                                     <li class="text-justify">Savor delicious meals at our restaurant during these hours. Kindly adhere to the timings for a seamless dining experience.</li>
@@ -81,7 +81,7 @@
 <br>
                             <li><h5>Liability Disclaimer</h5>
                                 <ul class="custom-bullets">
-                                    <li class="text-justify">While every effort is made to ensure the safety and comfort of guests, Trinantara Resort & Spa will not be liable for:</li>
+                                    <li class="text-justify">While every effort is made to ensure the safety and comfort of guests, Vanya Forest  Resort & Spa will not be liable for:</li>
                                     <ul style="list-style-type: none; padding-left: 20px; margin-left: 0;">
                                         <li class="text-justify">Any personal injuries, loss, or damage to personal property during the stay.</li>
                                         <li class="text-justify">Delays or disruptions due to natural disasters, strikes, or unforeseen circumstances.</li>
@@ -97,7 +97,7 @@
 <br>
                                     <li><h5>Privacy Policy</h5>
                                         <ul class="custom-bullets">
-                                            <li class="text-justify">Trinantara Resort & Spa respects your privacy and is committed to protecting your personal data.</li>
+                                            <li class="text-justify">Vanya Forest  Resort & Spa respects your privacy and is committed to protecting your personal data.</li>
                                             <li class="text-justify">For details on how we collect, use, and safeguard your information, please refer to our <span class="clickable-links">Privacy Pilicy</span>,</li>
                                         </ul>
 <br>
@@ -109,9 +109,9 @@
 <br>
 
     <li><h5>Contact Us</h5>
-        <p class="text-justify">If you have any questions or concerns regarding these Terms and Conditions, please contact us at:<br><b>Trinantara Resort & Spa</b></p>
-            <p class="text-justify"><span class="clickable-text" id="email">Email: sales1@trinantararesorts.com</span><br>
-                <span class="clickable-text" id="phone">Phone: +91 708 801 7026</span><br><span class="clickable-link">https://www.trinantararesorts.com</span>,</p>
+        <p class="text-justify">If you have any questions or concerns regarding these Terms and Conditions, please contact us at:<br><b>Vanya Forest  Resort & Spa</b></p>
+            <p class="text-justify"><span class="clickable-text" id="email">Email: sales1@Vanya Forest resorts.com</span><br>
+                <span class="clickable-text" id="phone">Phone: +91 708 801 7026</span><br><span class="clickable-link">https://www.Vanya Forest resorts.com</span>,</p>
 
                     </ol>
 
@@ -173,11 +173,11 @@
     </style>
     <script>
         document.querySelector('.clickable-link').addEventListener('click', function() {
-    window.open('https://www.trinantararesorts.com/', '_blank');
+    window.open('https://www.Vanya Forest resorts.com/', '_blank');
 });
 
 document.querySelector('.clickable-links').addEventListener('click', function() {
-    window.open('https://www.trinantararesorts.com/privacy-policy', '_blank');
+    window.open('https://www.Vanya Forest resorts.com/privacy-policy', '_blank');
 });
 
 document.getElementById('email').addEventListener('click', function() {

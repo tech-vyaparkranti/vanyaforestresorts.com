@@ -6,16 +6,16 @@
                 <div class="footer-item">
                     <div class="footer-logo">
                         <div class="footer-logo-inner">
-                            <a href="{{ url('/') }}"><img src="{{ asset($Logo ?? './assets/img/logo.jpg') }}" class="img-fluid" width="130" height="86" alt="Trinantararesorts" ></a>
+                            <a href="{{ url('/') }}"><img src="{{ asset($Logo ?? './assets/img/logo.jpg') }}" class="img-fluid" width="130" height="86" alt="Vanya Forest resorts" ></a>
                         </div>
                         <p>{!! $footer_logo_content ?? '<b>VanyaForestResorts</b> offer a unique and expert experience to the modern hoteller. Expect an impeccable level of service from your first point of contact to your last moments of Tour. ' !!}</p>
                         <div class="gtranslate_wrapper mb-3">
                         </div>
                         <ul class="d-flex social-media-links">
-                            <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/trinantararesort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/trinantararmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/trinantararesort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li class="links"><a href="{!! $youtube_link ?? 'https://www.youtube.com/@trinantararesortandspa' !!}"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/Vanya Forest resort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/Vanya Forest rmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/Vanya Forest resort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="links"><a href="{!! $youtube_link ?? 'https://www.youtube.com/@Vanya Forest resortandspa' !!}"><i class="fa-brands fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>

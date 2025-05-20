@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'Blog')
-@section('meta_description', 'Discover the exceptional amenities at Trinantara Resort & Spa, Vanya Resort. From spa and swimming pool to fine dining and adventure activities.')
-@section('meta_keywords', 'Spa & Wellness, Spa Resort in Vanya Resort, Best Resort in Vanya Resort, Trinantara Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
+@section('meta_description', 'Discover the exceptional amenities at Vanya Forest  Resort & Spa, Vanya Resort. From spa and swimming pool to fine dining and adventure activities.')
+@section('meta_keywords', 'Spa & Wellness, Spa Resort in Vanya Resort, Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
 @section('content')
 <div id="about">
     <div class="default-content pt-4 pb-3 our-service-page">
@@ -77,17 +77,17 @@
                                         Vanya Resort</h4>
                                     <p class="blog-content">Being perfectly combined with thrills of adventure and peace at
                                         large,VanyaForestResort, offering thrilling safari visits, offers the guest
-                                        relaxing atmospheres. Be it taking up wildlife of Corbett or just unwinding amidst
+                                        relaxing atmospheres. Be it taking up wildlife of Vanya or just unwinding amidst
                                         luxury lodging, resort leaves a good memory and even guides through tenures to
                                         conditioning for nature-lover and adventure-lovers, in turn.</p>
                                     <ul class="blog_social_links mb-3">
-                                        <li><a href="https://www.facebook.com/trinantararesort"><i
+                                        <li><a href="https://www.facebook.com/Vanya Forest resort"><i
                                                     class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.instagram.com/trinantararesort"><i
+                                        <li><a href="https://www.instagram.com/Vanya Forest resort"><i
                                                     class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="https://x.com/trinantararmr"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <li><a href="https://x.com/Vanya Forest rmr"><i class="fa-brands fa-x-twitter"></i></a>
                                         </li>
-                                        <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                        <li><a href="https://www.youtube.com/@Vanya Forest resortandspa"><i
                                                     class="fa-brands fa-youtube"></i></a></li>
                                     </ul>
                                     <span><a href="">Read more</a></span>
