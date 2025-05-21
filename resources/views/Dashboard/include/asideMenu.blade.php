@@ -170,28 +170,28 @@
                   <div data-i18n="Analytics">Manage Premium Room Gallery</div>
                 </a>
               </li>
-              <li class="menu-item">
+              {{-- <li class="menu-item">
                 <a href="{{route("roomsSlider")}}" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-images"></i>
                   <div data-i18n="Analytics">Manage Cottage Room Gallery</div>
                 </a>
-              </li>
+              </li> --}}
               {{-- <li class="menu-item">
                 <a href="{{route("roomsSlider")}}" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-images"></i>
                   <div data-i18n="Analytics">Manage Plung Pool Gallery</div>
                 </a>
               </li> --}}
-              <li class="menu-item">
+              {{-- <li class="menu-item">
                 <a href="{{route("banquetHallSlider")}}" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-images"></i>
                   <div data-i18n="Analytics">Manage Family Suite Gallery</div>
                 </a>
-              </li>
+              </li> --}}
               <li class="menu-item">
                 <a href="{{route("iceCreamSlider")}}" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-images"></i>
-                  <div data-i18n="Analytics">Manage Plung Poll Gallery</div>
+                  <div data-i18n="Analytics">Manage Deluxe Room Gallery</div>
                 </a>
               </li>
               <li class="menu-item">

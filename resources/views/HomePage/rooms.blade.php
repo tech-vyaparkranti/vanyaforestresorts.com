@@ -42,9 +42,9 @@
               <div class="tab">
 
                 <button class="tablinks active" data-origin="PremiumRoom">Premium Room</button>
-                <button class="tablinks" data-origin="CottageRoom">Cottage Room</button>
-                <button class="tablinks" data-origin="FamilySuites">Family Suites</button>
-                <button class="tablinks" data-origin="PlungPoolRoom">Plung Poll Suites</button>
+                {{-- <button class="tablinks" data-origin="CottageRoom">Cottage Room</button>
+                <button class="tablinks" data-origin="FamilySuites">Family Suites</button> --}}
+                <button class="tablinks" data-origin="PlungPoolRoom">Poolside Room Suites</button>
                
 
               </div>
@@ -124,7 +124,7 @@
                               <div class="swiper-pagination custom-pagination swiper-pagination-bullets-dynamic"></div>
                           </div>
                       </div>
-                      <div data-target="CottageRoom" class="tabcontent service-section">
+                      {{-- <div data-target="CottageRoom" class="tabcontent service-section">
                           <div class="service-container">
                               <div class="service-image">
                                   <img src="{{ asset($cottage_room_image ?? './assets/img/cottageroom.jpg') }}" alt="" class="img-fluid">
@@ -196,7 +196,7 @@
                               <div class="swiper-button-next slide-nav"></div>
                               <div class="swiper-pagination custom-pagination swiper-pagination-bullets-dynamic"></div>
                           </div>
-                      </div>
+                      </div> --}}
                       <div data-target="PlungPoolRoom" class="tabcontent service-section">
                           <div class="service-container">
                               <div class="service-image">
