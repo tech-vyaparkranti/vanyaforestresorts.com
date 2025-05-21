@@ -44,7 +44,7 @@
                 <button class="tablinks active" data-origin="PremiumRoom">Premium Room</button>
                 {{-- <button class="tablinks" data-origin="CottageRoom">Cottage Room</button>
                 <button class="tablinks" data-origin="FamilySuites">Family Suites</button> --}}
-                <button class="tablinks" data-origin="PlungPoolRoom">Poolside Room Suites</button>
+                <button class="tablinks" data-origin="PlungPoolRoom">Deluxe Poolside Room </button>
                
 
               </div>
