@@ -69,7 +69,7 @@ Route::post('wedding-enquiry', [WeddingEnquiryController::class, 'store'])->name
 Route::get('refresh-captcha',[HomePageController::class,"refreshCapthca"])->name("refreshCaptcha");
 // Route::get("get-testimonials-home-page", [TestimonialsController::class, "getHomePageTestimonials"])->name("getHomePageTestimonials");
 Route::post('enquiry-form',[ApplyNowController::class,"enquiryDetails"])->name("saveEnquiryFormData");
-Route::get("jim-corbett-holi-packages",[HomePageController::class,"holipackage"])->name("holipackage");
+Route::get("jim-Vanya-holi-packages",[HomePageController::class,"holipackage"])->name("holipackage");
 
 
 Route::post('enquiry-form-details',[EnquiryFormController::class,"enquiryFormDetails"])->name("saveHotelEnquiryFormData");

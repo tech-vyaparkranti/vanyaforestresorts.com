@@ -1,15 +1,15 @@
 @extends('layouts.webSite')
-@section('title', 'jim-corbett-holi-packages')
-@section('meta_description', 'Discover exclusive offers and packages at Trinantara Resort & Spa, Jim Corbett. From
+@section('title', 'jim-Vanya-holi-packages')
+@section('meta_description', 'Discover exclusive offers and packages at Vanya Forest  Resort & Spa, Vanya Resort. From
     romantic getaways to family vacations, enjoy luxury stays, exciting activities, and incredible deals tailored just for
 you.')
-@section('meta_keywords', 'Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim
-Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_keywords', 'Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages jim
+Vanya, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 
     <div id="about">
-    
-    
+
+
     <div class="image-containeroned">
     <img id="celebrationImage" class="celebration-image" src="./assets/img/banner for holi (1).jpg" alt="Holi Celebration">
 </div>
@@ -34,7 +34,7 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
                                 <img src="./assets/img/restaurant.jpg" alt="" onclick="changeImage('./assets/img/restaurant.jpg')">
                                 <img src="./assets/img/t3.jpg" alt="" onclick="changeImage('./assets/img/t3.jpg')">
                                 <img src="./assets/img/pool1.jpg" alt="" onclick="changeImage('./assets/img/pool1.jpg')">
-                                
+
                             </div>
                         </div>
                         <div class="banner-form-container">
@@ -65,11 +65,11 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
                         </div>
                     </div>
                     <div class="text-content mt-5 ">
-                    <h5 class="text-justify mb-3">Celebrate Holi in Jim Corbett at Trinantara Resort & Sport – Holi Party 2025!</h5>
-                    <p class="text-justify">Experience the vibrant festival of colors like never before at Trinantara Resort & Sport in the heart of Jim Corbett. Celebrate Holi 2025 with us and immerse yourself in a unique blend of tradition, adventure, and luxury. Our exclusive Holi Packages 2025 are designed to make your festival unforgettable, offering a perfect mix of fun, relaxation, and excitement.</p>
-                    <p class="text-justify">Join our Holi Party 2025 and groove to electrifying music, enjoy delicious traditional delicacies, and play with organic colors in a safe and eco-friendly environment. Surrounded by the serene beauty of Jim Corbett, our resort provides the ideal backdrop for a joyful celebration with family and friends.</p>
-                    <p class="text-justify">Our Holi packages include luxurious accommodations, festive meals, and exciting activities like nature walks, bonfires, and more. Whether you're looking to unwind in our spacious rooms or indulge in adventure sports, Trinantara Resort & Sport has something for everyone.</p>
-                    <p class="text-justify">Don’t miss the chance to celebrate Holi in the lap of nature at one of the best resorts in Jim Corbett. Book your Holi Party 2025 package now and create memories that will last a lifetime!</p>
+                    <h5 class="text-justify mb-3">Celebrate Holi in Vanya Resort at VanyaForestResort & Sport – Holi Party 2025!</h5>
+                    <p class="text-justify">Experience the vibrant festival of colors like never before at  VanyaForestResort & Sport in the heart of Vanya Resort. Celebrate Holi 2025 with us and immerse yourself in a unique blend of tradition, adventure, and luxury. Our exclusive Holi Packages 2025 are designed to make your festival unforgettable, offering a perfect mix of fun, relaxation, and excitement.</p>
+                    <p class="text-justify">Join our Holi Party 2025 and groove to electrifying music, enjoy delicious traditional delicacies, and play with organic colors in a safe and eco-friendly environment. Surrounded by the serene beauty of Vanya Resort, our resort provides the ideal backdrop for a joyful celebration with family and friends.</p>
+                    <p class="text-justify">Our Holi packages include luxurious accommodations, festive meals, and exciting activities like nature walks, bonfires, and more. Whether you're looking to unwind in our spacious rooms or indulge in adventure sports, Vanya Forest  Resort & Sport has something for everyone.</p>
+                    <p class="text-justify">Don’t miss the chance to celebrate Holi in the lap of nature at one of the best resorts in Vanya Resort. Book your Holi Party 2025 package now and create memories that will last a lifetime!</p>
 
                     </div>
                     <div class="inclusion-main">
@@ -109,7 +109,7 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
         }
         @media(max-width:768px){
             .celebration-image {
-   
+
     height: 200px;
     object-fit: cover;
 }
@@ -281,7 +281,7 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
             font-weight: bold;
         }
 
-       
+
         .main-image {
             width: 100%;
             height: auto;
@@ -380,7 +380,7 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
         document.body.appendChild(splash);
         setTimeout(() => splash.remove(), 1500);
     }
-    
+
     function createCursorEffect(e) {
         const colors = ['#ff4500', '#ff1493', '#00ff00', '#00ced1', '#ff0', '#800080'];
         const effect = document.createElement('div');
@@ -391,11 +391,11 @@ Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort i
         document.body.appendChild(effect);
         setTimeout(() => effect.remove(), 1000);
     }
-    
+
     document.addEventListener('mousemove', (e) => {
         createCursorEffect(e);
     });
-    
+
     setInterval(() => {
         const img = document.querySelector('.celebration-image');
         const rect = img.getBoundingClientRect();

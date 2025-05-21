@@ -6,16 +6,16 @@
                 <div class="footer-item">
                     <div class="footer-logo">
                         <div class="footer-logo-inner">
-                            <a href="{{ url('/') }}"><img src="{{ asset($Logo ?? './assets/img/logo.jpg') }}" class="img-fluid" width="130" height="86" alt="Trinantararesorts" ></a>
+                            <a href="{{ url('/') }}"><img src="{{ asset($Logo ?? './assets/img/logo.jpg') }}" class="img-fluid" width="130" height="86" alt="Vanya Forest resorts" ></a>
                         </div>
-                        <p>{!! $footer_logo_content ?? '<b>Trinantararesort</b> offer a unique and expert experience to the modern hoteller. Expect an impeccable level of service from your first point of contact to your last moments of Tour. ' !!}</p>
+                        <p>{!! $footer_logo_content ?? '<b>VanyaForestResorts</b> offer a unique and expert experience to the modern hoteller. Expect an impeccable level of service from your first point of contact to your last moments of Tour. ' !!}</p>
                         <div class="gtranslate_wrapper mb-3">
                         </div>
                         <ul class="d-flex social-media-links">
-                            <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/trinantararesort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/trinantararmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/trinantararesort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li class="links"><a href="{!! $youtube_link ?? 'https://www.youtube.com/@trinantararesortandspa' !!}"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/Vanya Forest resort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/Vanya Forest rmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/Vanya Forest resort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="links"><a href="{!! $youtube_link ?? 'https://www.youtube.com/@Vanya Forest resortandspa' !!}"><i class="fa-brands fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,17 +48,15 @@
                     <div class="footer-contact">
                         <div class="footer-item pb-3">
                             <label>Company E-mail:</label>
-                            <p><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:{!! $contact_us_email ??"sales1@trinantararesorts.com" !!}">{!! $contact_us_email ?? "sales1@trinantararesorts.com" !!}</a></p>
+                            <p><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:{!! $contact_us_email ??"vanyaforestresort@gmail.com" !!}">{!! $contact_us_email ?? "vanyaforestresort@gmail.com" !!}</a></p>
                         </div>
                         <div class="footer-item pb-3">
                             <label>Contact No:</label>
-                            <p><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+91{!! isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"7088017026" !!}">+91 {!! $contact_us_contact_number??"708 801 7026" !!}  </a></p><p><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+91{!! isset($contact_us_contact_number_2)?str_replace(" ","",$contact_us_contact_number_2):"7088017025" !!}">+91 {!! $contact_us_contact_number_2??"708 801 7025" !!}</a></p>
+                            <p><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+91{!! isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"9068445788" !!}">+91 {!! $contact_us_contact_number??"9068445788" !!}  </a></p><p><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+91{!! isset($contact_us_contact_number_2)?str_replace(" ","",$contact_us_contact_number_2):"9068445788" !!}">+91 {!! $contact_us_contact_number_2??"9068445788" !!}</a></p>
                         </div>
                         <div class="footer-item pb-3">
                             <label>Address:</label>
-                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;{!! $location ?? 'Khempur Gebua Village, Jim Corbett, Kaladhungi
-
-                                Ramnagar, Uttarakhand 263140' !!}</p>
+                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;{!! $location ?? 'Bail Pokra, Vanya Resort' !!}</p>
                         </div>
                     </div>
                 </div>
@@ -66,5 +64,5 @@
         </div>
     </div>
 </footer>
-<div class="copyright-section text-center p-2 text-white">&copy; <script>document.write( new Date().getFullYear() );</script>  All Rights Reserved by Trinantararesort & Developed by <a href="https://vyaparkranti.com/" class="text-white" aria-label="Digital Markating" alt="Vyapar Kranti">Vyapar kranti</a></div>
+<div class="copyright-section text-center p-2 text-white">&copy; <script>document.write( new Date().getFullYear() );</script>  All Rights Reserved by Vanyaforestresort & Developed by <a href="https://vyaparkranti.com/" class="text-white" aria-label="Digital Markating" alt="Vyapar Kranti">Vyapar kranti</a></div>
 <!-- Footer Section End-->

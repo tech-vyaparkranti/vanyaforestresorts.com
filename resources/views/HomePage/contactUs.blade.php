@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'Contact Us')
-@section('meta_description', "Get in touch with Trinantara Resort & Spa, your gateway to luxury in Jim Corbett. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
-@section('meta_keywords', 'Contact us,Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_description', "Get in touch with Vanya Forest  Resort & Spa, your gateway to luxury in Vanya Resort. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
+@section('meta_keywords', 'Contact us,Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages Vanya Resort, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 <div class="information-content">
     <ul class="m-auto list-unstyled custom-container">
@@ -24,22 +24,22 @@
                             <ul class="list-unstyled">
                                 <li>
                                     <h4>Head Office</h4>
-                                    <p>{!! $location ?? 'Khempur Gebua Village, Jim Corbett, Kaladhungi Ramnagar, Uttarakhand 263140' !!}</p>
+                                    <p>{!! $location ?? 'Bail Pokra, Vanya Resort' !!}</p>
                                 </li>
                                 <li>
                                     <h4>E-mail Us</h4>
-                                    <p><a href="mailto:{!! $contact_us_email ??"sales1@trinantararesorts.com" !!}">{!! $contact_us_email ?? "sales1@trinantararesorts.com" !!}</a></p>
+                                    <p><a href="mailto:{!! $contact_us_email ??"vanyaforestresort@gmail.com" !!}">{!! $contact_us_email ?? "vanyaforestresort@gmail.com" !!}</a></p>
                                 </li>
                                 <li>
                                     <h4>Call Us</h4>
-                                    <p>Phone no:<a href="tel:+91{{ isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"7088017026" }}">+91{{ $contact_us_contact_number??"708 801 7026" }} </a>|<a href="tel:+91{{ isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"7088017025" }}">+91{{ $contact_us_contact_number??"708 801 7025" }}</a></p>
+                                    <p>Phone no:<a href="tel:+91{{ isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"9068445788" }}">+91{{ $contact_us_contact_number??"9068445788" }} </a>|<a href="tel:+91{{ isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"9068445788" }}">+91{{ $contact_us_contact_number??"9068445788" }}</a></p>
                                 </li>
                             </ul>
                             <p>Follow our social media</p>
                             <ul class="list-unstyled socil-media">
-                                <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/trinantararesort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/trinantararmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/trinantararesort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/Vanya Forest resort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/Vanya Forest rmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/Vanya Forest resort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -139,7 +139,17 @@
                         <div class="google-map-area mb-20">
                             <!--  Map Section -->
                             {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61238.34069100491!2d85.05503546122516!3d25.581757533264355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1715773161050!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.38297427458593!2d79.15737856745913!3d29.337256350029072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a6d5a30711931%3A0xc825cdd2abb446f!2sTrinantara%20Resort%20and%20Spa!5e0!3m2!1sen!2sin!4v1732544348435!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.8886410701265!2d79.231706!3d29.307583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a73803a6287a5%3A0x8f4aeadbc9522e08!2sVanya%20Forest%20Resort!5e0!3m2!1sen!2sin!4v1715842590000!5m2!1sen!2sin"
+                            width="100%"
+                            height="450"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+
+
                             </div>
                     </div>
                 </div>

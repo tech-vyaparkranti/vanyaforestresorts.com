@@ -32,7 +32,7 @@
                     <p class="text-justify">You acknowledge that you are disclosing Personal Information voluntarily. We identify and use your IP address to help diagnose problems with our server, and to administer our Website. Your IP address is also used to help identify you and to gather broad demographic information.</p>
 
                     <h3>COOKIE POLICY</h3>
-                    <p class="text-justify">https://www.trinantararesorts.com  operates a strict privacy policy and we are committed to being transparent about how we use cookies on our website.</p>
+                    <p class="text-justify">https://www.Vanya Forest resorts.com  operates a strict privacy policy and we are committed to being transparent about how we use cookies on our website.</p>
                     <ul>
                         <li>
                             <h5>Why are cookies important?</h5>

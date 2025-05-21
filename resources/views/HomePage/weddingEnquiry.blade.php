@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'wedding Enquiry')
-@section('meta_description', "Get in touch with Trinantara Resort & Spa, your gateway to luxury in Jim Corbett. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
-@section('meta_keywords', 'Contact us,Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_description', "Get in touch with Vanya Forest  Resort & Spa, your gateway to luxury in Vanya Resort. Contact us for bookings, inquiries, or personalized assistance. We're here to make your stay unforgettable.")
+@section('meta_keywords', 'Contact us,Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages Vanya Resort, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
 <div class="information-content">
     <ul class="m-auto list-unstyled custom-container">
@@ -24,11 +24,11 @@
                             <ul class="list-unstyled">
                                 <li>
                                     <h4>Head Office</h4>
-                                    <p>{!! $location ?? 'Khempur Gebua Village, Jim Corbett, Kaladhungi Ramnagar, Uttarakhand 263140' !!}</p>
+                                    <p>{!! $location ?? 'Khempur Gebua Village, Vanya Resort, Kaladhungi Ramnagar, Uttarakhand 263140' !!}</p>
                                 </li>
                                 <li>
                                     <h4>E-mail Us</h4>
-                                    <p><a href="mailto:{!! $contact_us_email ??"sales1@trinantararesorts.com" !!}">{!! $contact_us_email ?? "sales1@trinantararesorts.com" !!}</a></p>
+                                    <p><a href="mailto:{!! $contact_us_email ??"sales1@vanyaforestresorts.com" !!}">{!! $contact_us_email ?? "sales1@Vanya Forest resorts.com" !!}</a></p>
                                 </li>
                                 <li>
                                     <h4>Call Us</h4>
@@ -37,9 +37,9 @@
                             </ul>
                             <p>Follow our social media</p>
                             <ul class="list-unstyled socil-media">
-                                <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/trinantararesort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/trinantararmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/trinantararesort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="links"><a href="{!! $facebook_link ?? 'https://www.facebook.com/Vanya Forest resort' !!}"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="links"><a href="{!! $twitter_link ?? 'https://x.com/Vanya Forest rmr' !!}"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="links"><a href="{!! $instagram_link ?? 'https://www.instagram.com/Vanya Forest resort' !!}"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                             @csrf
                             <input type="hidden" name="country_code" value="" id="country_code_id">
                             <div class="row">
-                                
+
                                 {{-- <div class="col-md-6 mb-3">
                                     <div class="form-group">
                                         <label for="last_name">Last name</label>
@@ -70,7 +70,7 @@
                                         <div class="invalid-feedback">Please provide a valid Email.</div>
                                     </div>
                                 </div> --}}
-                                
+
                                 <div class="col-md-6 mb-3">
     <div class="form-group">
         <label for="check_in_date">Check-in Date</label>
@@ -142,7 +142,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                
+
 
                                 {{-- <div class="col-md-12 mb-3">
                                     <div class="form-group">
@@ -198,7 +198,7 @@
                         <div class="google-map-area mb-20">
                             <!--  Map Section -->
                             {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61238.34069100491!2d85.05503546122516!3d25.581757533264355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1715773161050!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.38297427458593!2d79.15737856745913!3d29.337256350029072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a6d5a30711931%3A0xc825cdd2abb446f!2sTrinantara%20Resort%20and%20Spa!5e0!3m2!1sen!2sin!4v1732544348435!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.38297427458593!2d79.15737856745913!3d29.337256350029072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a6d5a30711931%3A0xc825cdd2abb446f!2sVanya Forest %20Resort%20and%20Spa!5e0!3m2!1sen!2sin!4v1732544348435!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@
             });
         });
 
-        
+
         var phone_number = window.intlTelInput(document.querySelector("#phone_number"), {
             separateDialCode: true,
             preferredCountries: ["in"],

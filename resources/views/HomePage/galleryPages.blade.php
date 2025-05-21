@@ -1,9 +1,9 @@
 @extends('layouts.webSite')
 @section('title', 'Our Gallery')
-@section('meta_description', 'Explore the beauty of Trinantara Resort & Spa, Jim Corbett, through our stunning gallery.
+@section('meta_description', 'Explore the beauty of Vanya Forest  Resort & Spa, Vanya Resort, through our stunning gallery.
     Discover breathtaking views, luxurious accommodations, serene spa experiences, and unforgettable moments.')
-@section('meta_keywords', 'Destination Wedding in jim Corbett, adventure activities in jim Corbett, Holiday packages jim
-    Corbett, Family Stay in Jim Corbett, Best Resort in Jim Corbett, 5 star resort in jim corbett')
+@section('meta_keywords', 'Destination Wedding in Vanya Resort, adventure activities in Vanya Resort, Holiday packages jim
+    Vanya, Family Stay in Vanya Resort, Best Resort in Vanya Resort, 5 star resort in Vanya Resort')
 @section('content')
     <div class="information-content">
         <ul class="m-auto list-unstyled custom-container">

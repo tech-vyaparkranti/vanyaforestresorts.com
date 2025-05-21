@@ -7,20 +7,20 @@
  <meta name="robots" content="index, follow">
  <meta name="language" content="English">
 
- <title>@yield('title', '5 Star Resort in Jim Corbett - Trinantara Resort & Spa')</title>
- <meta name="title" content="@yield('title', '5 Star Resort in Jim Corbett - Trinantara Resort & Spa')">
- <meta name="keywords" content="@yield('meta_keywords', 'Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort in Jim Corbett national Park,')">
- <meta name="description" content="@yield('meta_description', 'Enjoy your stay at our 5 star resort in Jim Corbett which offer elegant accommodation and best in class amenities - Trinantara Resort & Spa')">
+ <title>@yield('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')</title>
+ <meta name="title" content="@yield('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')">
+ <meta name="keywords" content="@yield('meta_keywords', 'Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park,')">
+ <meta name="description" content="@yield('meta_description', 'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and best in class amenities - Vanya Forest  Resort & Spa')">
  <link rel="canonical" href="{{ canonical() }}" />
 
 
  {{-- Open Graph Tag: --}}
- <meta property="og:site_name" content="Trinantara Resort & Spa">
+ <meta property="og:site_name" content="Vanya Forest  Resort & Spa">
  <meta property="og:url" content="{{ canonical() }}">
  <meta property="og:type" content="website">
  <meta property="og:image" content="{{ asset($Logo ?? './assets/img/logo.jpg') }}">
- <meta property="og:title" content="@yield('title', '5 Star Resort in Jim Corbett - Trinantara Resort & Spa')">
- <meta property="og:description" content="@yield('meta_description', 'Enjoy your stay at our 5 star resort in Jim Corbett which offer elegant accommodation and best in class amenities - Trinantara Resort & Spa')">
+ <meta property="og:title" content="@yield('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')">
+ <meta property="og:description" content="@yield('meta_description', 'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and best in class amenities - Vanya Forest  Resort & Spa')">
 
  {{-- Defoult Section End --}}
 
@@ -75,14 +75,14 @@
 {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Trinantara Resort & Spa",
-    "alternateName": "Best 5 Star Resort in Jim Corbett",
-    "url": "https://www.trinantararesorts.com/",
-    "logo": "https://www.trinantararesorts.com/website/uploads/WesiteElements/file_1730181302logo1.png",
+    "name": "Vanya Forest  Resort & Spa",
+    "alternateName": "Best 5 Star Resort in Vanya Resort",
+    "url": "https://www.Vanya Forest resorts.com/",
+    "logo": "https://www.Vanya Forest resorts.com/website/uploads/WesiteElements/file_1730181302logo1.png",
     "sameAs": [
-    "https://www.facebook.com/trinantararesort",
-    "https://www.instagram.com/trinantararesort",
-    "https://www.youtube.com/@TrinantaraResortSpa"
+    "https://www.facebook.com/Vanya Forest resort",
+    "https://www.instagram.com/Vanya Forest resort",
+    "https://www.youtube.com/@Vanya Forest ResortSpa"
     ]
 }
 </script>
