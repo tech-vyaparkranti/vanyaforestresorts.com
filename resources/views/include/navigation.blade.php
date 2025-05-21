@@ -52,11 +52,10 @@
         </div>
 
         <script>
-            document.getElementById('book-now-btn').addEventListener('click', function() {
-                // Redirect to the booking page in a new tab
-                window.open("https://www.swiftbook.io/inst/#home?propertyId=903NTQf4ixW2CSCrUccVOYsxMx3puXvRmp3uQnO827r79SK7KgB3NTE=&JDRN=Y", "_blank");
-            });
-        </script>
+    document.getElementById("book-now-btn").addEventListener("click", function () {
+        window.location.href = "{{ route('contactUs') }}";
+    });
+</script>
     </div>
 </header>
 <!-- Header section end -->

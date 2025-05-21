@@ -15,7 +15,7 @@
 <a class="footer-whatsapp footer-call" aria-label="Phone Call Button" href="tel:+91{{ isset($phone_footer_link) ? str_replace(' ', '', strip_tags($phone_footer_link)) : '7088017026' }}">
     <img src="{{ asset('assets/img/phone-call.png') }}" alt="Phone Call" class="img-fluid" height="" width="150">
 </a>
-<a class="book-btn book-btn-footer" href="https://www.swiftbook.io/inst/#home?propertyId=903NTQf4ixW2CSCrUccVOYsxMx3puXvRmp3uQnO827r79SK7KgB3NTE=&JDRN=Y">Book Now</a>
+<a class="book-btn book-btn-footer" href="{{ route('contactUs') }}">Book Now</a>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="{{asset("dashboard/assets/js/website.js")}}"></script>
 <script>window.gtranslateSettings = {"default_language":"en","languages":["en","hi","de","es","fr"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"flag_style":"3d"}</script>
