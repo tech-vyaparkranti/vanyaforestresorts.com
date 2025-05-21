@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 @section('title', 'Blog')
-@section('meta_description', 'Discover the exceptional amenities at Trinantara Resort & Spa, Jim Corbett. From spa and swimming pool to fine dining and adventure activities.')
-@section('meta_keywords', 'Spa & Wellness, Spa Resort in Jim Corbett, Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort in Jim Corbett national Park, Luxury Resort in Jim Corbett')
+@section('meta_description', 'Discover the exceptional amenities at Vanya Forest Resort & Spa, Jim Corbett. From spa and swimming pool to fine dining and adventure activities.')
+@section('meta_keywords', 'Spa & Wellness, Spa Resort in Jim Corbett, Best Resort in Jim Corbett, Vanya Forest Resort & Spa, Riverside resort in Jim Corbett, Resort in Jim Corbett national Park, Luxury Resort in Jim Corbett')
 @section('content')
 <div id="about">
     <div class="default-content pt-4 pb-3 our-service-page">
@@ -73,21 +73,21 @@
                             <div class="blog-card-container">
                                 <img src="./assets/img/cottageroom1.jpg" alt="blog image">
                                 <div class="card-content">
-                                    <h4 class="blog_heading">Trinantara Resort: Your Gateway to Adventure and Relaxation in
+                                    <h4 class="blog_heading">Vanya Forest Resort: Your Gateway to Adventure and Relaxation in
                                         Jim Corbett</h4>
                                     <p class="blog-content">Being perfectly combined with thrills of adventure and peace at
-                                        large, Trinantara Resort, offering thrilling safari visits, offers the guest
+                                        large, Vanya Forest Resort, offering thrilling safari visits, offers the guest
                                         relaxing atmospheres. Be it taking up wildlife of Corbett or just unwinding amidst
                                         luxury lodging, resort leaves a good memory and even guides through tenures to
                                         conditioning for nature-lover and adventure-lovers, in turn.</p>
                                     <ul class="blog_social_links mb-3">
-                                        <li><a href="https://www.facebook.com/trinantararesort"><i
+                                        <li><a href="https://www.facebook.com/Vanya Forestresort"><i
                                                     class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.instagram.com/trinantararesort"><i
+                                        <li><a href="https://www.instagram.com/Vanya Forestresort"><i
                                                     class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="https://x.com/trinantararmr"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <li><a href="https://x.com/Vanya Forestrmr"><i class="fa-brands fa-x-twitter"></i></a>
                                         </li>
-                                        <li><a href="https://www.youtube.com/@trinantararesortandspa"><i
+                                        <li><a href="https://www.youtube.com/@Vanya Forestresortandspa"><i
                                                     class="fa-brands fa-youtube"></i></a></li>
                                     </ul>
                                     <span><a href="">Read more</a></span>

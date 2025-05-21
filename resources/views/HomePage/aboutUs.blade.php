@@ -1,8 +1,8 @@
 @extends('layouts.webSite')
-@section('title', 'About Trinantara Resort & Spa')
-@section('meta_description', 'Discover Trinantara Resort & Spa, the best luxury retreat in Jim Corbett. Our resort
+@section('title', 'About Vanya Forest Resort & Spa')
+@section('meta_description', 'Discover Vanya Forest Resort & Spa, the best luxury retreat in Jim Corbett. Our resort
     offers serene accommodation, spa services and premium hospitality')
-@section('meta_keywords', 'Best Resort in Jim Corbett, Trinantara Resort & Spa, Riverside resort in Jim Corbett, Resort
+@section('meta_keywords', 'Best Resort in Jim Corbett, Vanya Forest Resort & Spa, Riverside resort in Jim Corbett, Resort
     in Jim Corbett national Park, Luxury Resort in Jim Corbett')
 
 @section('content')
@@ -41,7 +41,7 @@
         </form>
     </div>
                 <div class="site-title mt-200">
-                    <h1 class="text-center">About trinantara resort & spa</h2>
+                    <h1 class="text-center">About Vanya Forest resort & spa</h2>
                 </div>
                 
                 <div class="midd-content">
