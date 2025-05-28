@@ -57,6 +57,10 @@ class WebSiteElementsController extends Controller
         "contact_us_contact_number_2",
         "get_in_touch_content",
         "googledrive_link",
+        "total_room_count",
+        "banquet_hall_sqft",
+        "total_lawn",
+        "counter_bg_image",
     ];
     public function addWebSiteElements()
     {

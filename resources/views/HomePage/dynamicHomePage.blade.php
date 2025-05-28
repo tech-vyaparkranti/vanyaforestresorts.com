@@ -7,6 +7,12 @@
     'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and
     best in class amenities - Vanya Forest  Resort & Spa')
 
+    @php
+    $counterBg = \DB::table('website_elements')
+        ->where('element', 'counter_bg_image')
+        ->value('element_details');
+@endphp
+
 @section('content') {{-- @include('include.navigation') --}}
     @include('include.slider')
     <!-- aboutus Section -->
@@ -189,28 +195,40 @@
         <div id="counter" class="container">
             <div class="col-lg-10 offset-lg-1">
                 <div class="row">
-                    <div class="col-md-4 pb-2 pb-xl-0 aos-init aos-animate" data-aos="zoom-in">
-                        <div class="counter">
-                            <div class="counter-value plus" data-count="75"><span>75+</div>
-                            <p class="title">Total Room's</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 pb-2 pb-xl-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="counter">
-                            <div class="counter-value" data-count="5500">5500</div>
-                            <p class="title">Banquet Hall 5500 sqft</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 pb-2 pb-xl-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="counter">
-                            <!-- insert your final value on data-count= -->
-                            <div class="counter-value" data-count="2">2</div>
-                            <p class="title">Lawn 2 Acre</p>
-                        </div>
-                        <!-- /counter -->
-                    </div>
-                    <!-- /col-->
-                </div>
+    <div class="col-md-4 pb-2 pb-xl-0 aos-init aos-animate" data-aos="zoom-in">
+        <div class="counter">
+            <div class="counter-value plus" 
+                 data-count="{{ preg_replace('/\D/', '', $total_room_count) }}" 
+                 data-type="room">
+                <span>{!! $total_room_count ?? '24' !!}</span>
+            </div>
+            <p class="title">Total Room's</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 pb-2 pb-xl-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+        <div class="counter">
+            <div class="counter-value" 
+                 data-count="{{ preg_replace('/\D/', '', $banquet_hall_sqft) }}" 
+                 data-type="banquet">
+                <span>{!! $banquet_hall_sqft ?? '5500' !!}</span>
+            </div>
+            <p class="title">Banquet Hall in sqft</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 pb-2 pb-xl-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+        <div class="counter">
+            <div class="counter-value" 
+                 data-count="{{ preg_replace('/\D/', '', $total_lawn) }}" 
+                 data-type="lawn">
+                <span>{!! $total_lawn ?? '2 Acre' !!}</span>
+            </div>
+            <p class="title">Lawn in Acre</p>
+        </div>
+    </div>
+</div>
+
                 <!-- /row -->
             </div>
             <!-- /col-lg -->
@@ -999,95 +1017,79 @@
                 filter: none !important;
             }
         }
+
+
+        #counter-section {
+    background: url('{{ asset($counterBg ?? './assets/img/counter.jpg') }}');
+    background-size: cover;
+    background-position: top;
+}
     </style>
 @endsection
 
 @section('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const counters = document.querySelectorAll(".counter-value");
+document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll(".counter-value");
 
-            // Total duration for each counter (in milliseconds)
-            const totalDurationForRoom = 10000; // Duration for Total Rooms counter
-            const totalDurationForBanquet = 10; // Duration for Banquet counter (faster)
-            const totalDurationForLawn = 10000; // Duration for Lawn counter (slowest)
+    // Custom animation durations by counter type
+    const durations = {
+        room: 10000,
+        banquet: 100,
+        lawn: 10000
+    };
 
-            // Function to animate the counter
-            const animateCounter = (counter, totalDuration) => {
-                return new Promise((resolve) => {
-                    const target = +counter.getAttribute("data-count"); // Get the target count
-                    let count = 0; // Start counting from 0
+    const animateCounter = (counter, totalDuration) => {
+        return new Promise((resolve) => {
+            const target = parseInt(counter.getAttribute("data-count")) || 0;
+            let count = 0;
+            const speed = totalDuration / target;
+            const increment = Math.ceil(target / (totalDuration / speed));
 
-                    // Calculate the speed based on the target value and total duration
-                    const speed = totalDuration / target; // Calculate speed per increment
-                    const increment = Math.ceil(target / (totalDuration / speed)); // Increment amount
-
-                    const updateCounter = () => {
-                        count += increment; // Increment the count
-
-                        if (count < target) {
-                            counter.innerText = count; // Update the displayed count
-                            setTimeout(updateCounter,
-                                speed); // Continue updating based on calculated speed
-                        } else {
-                            counter.innerText =
-                                target; // Ensure the final count is set to the target
-                            if (counter.classList.contains("plus")) {
-                                counter.innerHTML = `${target}+`; // Add plus icon
-                            }
-                            resolve(); // Resolve the promise when done
-                        }
-                    };
-
-                    updateCounter(); // Start the counter
-                });
+            const updateCounter = () => {
+                count += increment;
+                if (count < target) {
+                    counter.querySelector("span").innerText = count;
+                    setTimeout(updateCounter, speed);
+                } else {
+                    counter.querySelector("span").innerText = target;
+                    if (counter.classList.contains("plus")) {
+                        counter.querySelector("span").innerText = target + "+";
+                    }
+                    resolve();
+                }
             };
 
-            // Intersection Observer to trigger animation when the element is in view
-            const observer = new IntersectionObserver(
-                (entries) => {
-                    entries.forEach((entry) => {
-                        if (entry.isIntersecting) {
-                            const counterPromises = []; // Array to hold promises for all counters
-
-                            // Start animating all counters with different durations
-                            counters.forEach((counter) => {
-                                const dataCount = counter.getAttribute("data-count");
-                                if (dataCount === "75") {
-                                    counterPromises.push(
-                                        animateCounter(counter, totalDurationForRoom)
-                                    ); // Total Rooms
-                                } else if (dataCount === "5500") {
-                                    counterPromises.push(
-                                        animateCounter(counter, totalDurationForBanquet)
-                                    ); // Banquet Hall (faster)
-                                } else if (dataCount === "2") {
-                                    counterPromises.push(
-                                        animateCounter(counter, totalDurationForLawn)
-                                    ); // Lawn (slowest)
-                                }
-                            });
-
-                            // Wait for all counters to finish
-                            Promise.all(counterPromises).then(() => {
-                                // All counters are finished here
-                            });
-
-                            observer.unobserve(entry.target); // Stop observing after animation
-                        }
-                    });
-                }, {
-                    threshold: 0.1
-                }
-            ); // Trigger when 10% of the element is visible
-
-            // Observe each counter element
-            counters.forEach((counter) => observer.observe(counter));
-
-            // Initialize AOS for animations
-            AOS.init();
+            updateCounter();
         });
-    </script>
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                const counterPromises = [];
+
+                counters.forEach((counter) => {
+                    const type = counter.getAttribute("data-type");
+                    const duration = durations[type] || 2000;
+                    counterPromises.push(animateCounter(counter, duration));
+                });
+
+                Promise.all(counterPromises).then(() => {
+                    // All counters finished animating
+                });
+
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    counters.forEach((counter) => observer.observe(counter));
+
+    AOS.init();
+});
+</script>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>

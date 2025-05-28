@@ -1586,11 +1586,11 @@ visibility: hidden;
     background-color: rgb(var(--blue-color));
     color: rgb(var(--blue-color)) !important;
 }
-#counter-section {
+/* #counter-section {
     background: url('../img/counter.jpg');
     background-size: cover;
     background-position: top;
-}
+} */
 .page {
     padding-top: 9rem;
     padding-bottom: 9rem;
