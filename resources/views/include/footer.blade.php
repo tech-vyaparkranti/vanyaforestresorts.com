@@ -55,8 +55,14 @@
                             <p><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+91{!! isset($contact_us_contact_number)?str_replace(" ","",$contact_us_contact_number):"9068445788" !!}">+91 {!! $contact_us_contact_number??"9068445788" !!}  </a></p><p><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+91{!! isset($contact_us_contact_number_2)?str_replace(" ","",$contact_us_contact_number_2):"9068445788" !!}">+91 {!! $contact_us_contact_number_2??"9068445788" !!}</a></p>
                         </div>
                         <div class="footer-item pb-3">
-                            <label>Address:</label>
+                            {{-- <label>Address:</label> --}}
+                            <label>Operational Office:</label>
                             <p><i class="fa-solid fa-location-dot"></i>&nbsp;{!! $location ?? 'Bail Pokra, Vanya Resort' !!}</p>
+                        </div>
+                        <div class="footer-item pb-3">
+                            {{-- <label>Address:</label> --}}
+                            <label>Registered Office:</label>
+                            <p><i class="fa-solid fa-location-dot"></i>&nbsp;{!! $location2 ?? 'Near Thapli Baba Mazar, Lakhanpur, Ramnagar, Nainital, Uttarakhand,244715' !!}</p>
                         </div>
                     </div>
                 </div>
