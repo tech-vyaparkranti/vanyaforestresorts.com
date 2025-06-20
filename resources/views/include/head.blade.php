@@ -7,10 +7,10 @@
  <meta name="robots" content="index, follow">
  <meta name="language" content="English">
 
- <title>@yield('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')</title>
- <meta name="title" content="@yield('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')">
- <meta name="keywords" content="@yield('meta_keywords', 'Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park,')">
- <meta name="description" content="@yield('meta_description', 'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and best in class amenities - Vanya Forest  Resort & Spa')">
+ <title>@yield('title', 'Best Resorts in Jim Corbett Perfect for Wildlife Getaway')</title>
+ <meta name="title" content="@yield('title', 'Best Resorts in Jim Corbett Perfect for Wildlife Getaway')">
+ {{-- <meta name="keywords" content="@yield('meta_keywords', 'Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park,')"> --}}
+ <meta name="description" content="@yield('meta_description', 'Explore top resorts in Jim Corbett for a serene wildlife getaway featuring cozy stays, lush forest views, tranquil vibes, and thrilling jungle safari adventures')">
  <link rel="canonical" href="{{ canonical() }}" />
 
 
@@ -19,8 +19,8 @@
  <meta property="og:url" content="{{ canonical() }}">
  <meta property="og:type" content="website">
  <meta property="og:image" content="{{ asset($Logo ?? './assets/img/logo.jpg') }}">
- <meta property="og:title" content="@yield('title', '5 Star Resort in Vanya Resort - Vanya Forest  Resort & Spa')">
- <meta property="og:description" content="@yield('meta_description', 'Enjoy your stay at our 5 star resort in Vanya Resort which offer elegant accommodation and best in class amenities - Vanya Forest  Resort & Spa')">
+ <meta property="og:title" content="@yield('title', 'Best Resorts in Jim Corbett Perfect for Wildlife Getaway')">
+ <meta property="og:description" content="@yield('meta_description', 'Explore top resorts in Jim Corbett for a serene wildlife getaway featuring cozy stays, lush forest views, tranquil vibes, and thrilling jungle safari adventures')">
 
  {{-- Defoult Section End --}}
 

@@ -1,7 +1,7 @@
 @extends('layouts.webSite')
 
-@section('title', 'Luxury Rooms & Suites')
-@section('meta_description', 'Explore the luxurious rooms at Vanya Forest  Resort & Spa in Vanya Resort. Experience comfort, elegance and stunning views with our premium accommodations')
+@section('title', 'Book Premium Rooms in Jim Corbett Best Nature Stay')
+@section('meta_description', 'Experience premium rooms in Jim Corbett, Uttarakhand with scenic jungle views, top-notch comfort, modern amenities, and a peaceful stay amid nature.')
 @section('meta_keywords', 'Premium Rooms, Luxury Accommodation in Vanya Resort, Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park, Luxury Resort in Vanya Resort')
 
 @section('content')

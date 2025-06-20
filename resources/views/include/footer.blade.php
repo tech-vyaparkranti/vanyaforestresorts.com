@@ -37,7 +37,7 @@
 
                         <li><a href="{{ route('termsConditions') }}">Terms & Conditions</a></li>
                         <li><a href="{{ route('privacyPolicy') }}">Privacy Policy</a></li>
-                        <li><a href="{{ route('holipackage') }}">Holi Package</a></li>
+                        {{-- <li><a href="{{ route('holipackage') }}">Holi Package</a></li> --}}
 
                     </ul>
                 </div>

@@ -51,11 +51,11 @@ Route::get("destinations",[HomePageController::class,"destinations"])->name("des
 Route::get("gallery",[HomePageController::class,"galleryPages"])->name("galleryPages");
 Route::get("contact-us",[HomePageController::class,"contactUs"])->name("contactUs");
 Route::get("wedding-booking",[HomePageController::class,"weddingEnquiry"])->name("weddingEnquiry");
-Route::get("rooms-suites",[HomePageController::class,"rooms"])->name("rooms");
+Route::get("rooms",[HomePageController::class,"rooms"])->name("rooms");
 Route::get("amenities",[HomePageController::class,"amenities"])->name("amenities");
 Route::get("blogs",[HomePageController::class,"blog"])->name("blog");
 Route::get("blog/{slug}",[HomePageController::class,"blogDetail"])->name("blogDetail");
-Route::get("events-weddings",[HomePageController::class,"eventsweddings"])->name("eventsweddings");
+Route::get("events",[HomePageController::class,"eventsweddings"])->name("eventsweddings");
 Route::get("offers-packages",[HomePageController::class,"offerspackages"])->name("offerspackages");
 Route::get("offers-detail",[HomePageController::class,"offersdetail"])->name("offersdetail");
 Route::get("career",[HomePageController::class,"career"])->name("career");
