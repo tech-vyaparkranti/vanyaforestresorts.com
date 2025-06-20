@@ -25,7 +25,7 @@
  {{-- Defoult Section End --}}
 <meta name="google-site-verification" content="_KQ8yIhzzE3t5GHQXkMOTDfJFDmYES-zZKqqIyy24Fw" />
  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNF5MGW7TF"></script>
+<meta name="google-site-verification" content="_KQ8yIhzzE3t5GHQXkMOTDfJFDmYES-zZKqqIyy24Fw" />
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
