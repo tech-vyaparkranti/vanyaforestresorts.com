@@ -23,6 +23,16 @@
  <meta property="og:description" content="@yield('meta_description', 'Explore top resorts in Jim Corbett for a serene wildlife getaway featuring cozy stays, lush forest views, tranquil vibes, and thrilling jungle safari adventures')">
 
  {{-- Defoult Section End --}}
+<meta name="google-site-verification" content="_KQ8yIhzzE3t5GHQXkMOTDfJFDmYES-zZKqqIyy24Fw" />
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNF5MGW7TF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VNF5MGW7TF');
+</script>
 
  <link rel="shortcut icon" href="{{ asset('assets/img/logo.jpg') }}" type="image/x-icon">
  <!-- Site Metas -->
