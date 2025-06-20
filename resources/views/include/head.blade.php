@@ -11,7 +11,7 @@
  <meta name="title" content="@yield('title', 'Best Resorts in Jim Corbett Perfect for Wildlife Getaway')">
  {{-- <meta name="keywords" content="@yield('meta_keywords', 'Best Resort in Vanya Resort, Vanya Forest  Resort & Spa, Riverside resort in Vanya Resort, Resort in Vanya Resort national Park,')"> --}}
  <meta name="description" content="@yield('meta_description', 'Explore top resorts in Jim Corbett for a serene wildlife getaway featuring cozy stays, lush forest views, tranquil vibes, and thrilling jungle safari adventures')">
- <link rel="canonical" href="{{ canonical() }}" />
+ <link rel="canonical" href="https://vanyaforestresorts.com" />
 
 
  {{-- Open Graph Tag: --}}
